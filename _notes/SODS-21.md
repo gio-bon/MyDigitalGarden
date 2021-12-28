@@ -10,91 +10,91 @@ Abaixo as tecnologias com boa relação popularidade/rentabilidade, em ordem:
 
 ## Linguagens de programação, script e marcação
 
-JavaScript
-Clojure *
-SQL
-Bash/Shell
-HTML / CSS
-Python
-Ruby
-Typescript *
-F#
-Go *
-Elixir *
-Perl
-Rust *
-Erlang
-Scala
-Node.js
-C#
-Java
-C++
-C
-PHP
+- JavaScript
+- Clojure *
+- SQL
+- Bash/Shell
+- HTML / CSS
+- Python
+- Ruby
+- Typescript *
+- F#
+- Go *
+- Elixir *
+- Perl
+- Rust *
+- Erlang
+- Scala
+- Node.js
+- C#
+- Java
+- C++
+- C
+- PHP
 
 ## Frameworks web
 
-React.js *
-JQuery
-Angular *
-Express
-ASP.NET Core
-Vue.js *
-ASP.net
-Spring
-Flask
-Django *
-Angular.js
-Laravel
-Ruby on Rails
-Svelte
+- React.js *
+- JQuery
+- Angular *
+- Express
+- ASP.NET Core
+- Vue.js *
+- ASP.net
+- Spring
+- Flask
+- Django *
+- Angular.js
+- Laravel
+- Ruby on Rails
+- Svelte
 
 ## Banco de Dados
 
-PostgreeSQL *
-DynamoDB
-Redis *
-Microsoft SQL Lite
-Elasticsearch *
-MySQL
-SQLite
-Cassandra
-MongoDB *
-MariaDB
-Oracle
-Firebase
+- PostgreeSQL *
+- DynamoDB
+- Redis *
+- Microsoft SQL Lite
+- Elasticsearch *
+- MySQL
+- SQLite
+- Cassandra
+- MongoDB *
+- MariaDB
+- Oracle
+- Firebase
 
 ## Plataformas de núvem
 
-AWS *
-Microsoft Azure *
-Google Cloud Plataform *
-Heroku
-DigitalOcean
-IBM Cloud or Watson
-Oracle cloud infrastructure
+- AWS *
+- Microsoft Azure *
+- Google Cloud Plataform *
+- Heroku
+- DigitalOcean
+- IBM Cloud or Watson
+- Oracle cloud infrastructure
 
 ## Outros frameworks e bibliotecas
 
-.NET Framework
-.NET Core / .NET 5
-NumPy
-Pandas
-React Native *
-TensorFlow *
-Apache Spark
-Hadoop
-Torch/PyTorch
-Qt
-Flutter *
+- .NET Framework
+- .NET Core / .NET 5
+- NumPy
+- Pandas
+- React Native *
+- TensorFlow *
+- Apache Spark
+- Hadoop
+- Torch/PyTorch
+- Qt
+- Flutter *
 
 ## Outras ferramentas
 
-Git
-Docker *
-Yarn
-Kubernetes *
-Pulumi
-Terraform
-Chef
-Puppet
+- Git
+- Docker *
+- Yarn
+- Kubernetes *
+- Pulumi
+- Terraform
+- Chef
+- Puppet
