@@ -5,9 +5,7 @@ id: home
 permalink: /
 ---
 
-# Bem vindo! 🌱
-
-Este é meu Digital Garden. <br>
+Este é meu Digital Garden. 🪴 <br>
 Minha inspiração para criá-lo é a ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br><br>
 Fique à vontade para explorar meu gráfico de notas: <br>
 
