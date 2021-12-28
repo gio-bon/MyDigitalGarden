@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks)🪴, escrito com [obsidian](https://obsidian.md). Minha inspiração para criá-lo é a ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br> <br>
+Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks)🪴, escrito com [obsidian](https://obsidian.md). Minha inspiração para criá-lo é a ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br>
 
 <a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻, meus [[Projetos|projetos]] 🚧, [[referências]] 🔗 e meus [[aprendizados]] 🧠. <br>
 
