@@ -7,6 +7,7 @@ permalink: /
 
 <a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻 e meus [[Projetos|projetos]] 🚧. <br>
 Este é meu Digital Garden. 🪴 <br>
+Com minhas [[referências]] 🔗 e meus [[aprendizados]] 🧠. <br>
 Minha inspiração para criá-lo é a ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br><br>
 
 Explore meu gráfico de notas: <br>
