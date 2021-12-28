@@ -13,4 +13,4 @@ title: Projetos
 - [Homepage do Google](https://github.com/gio-bon/TOP_google-homepage) e [preview](https://htmlpreview.github.io/?https://github.com/gio-bon/TOP_google-homepage/blob/main/index.html)
 
 ## Projetos da faculdade
-Veja os [[Bacharelado em Tecnologia da Informação|projetos integradores]]
+Veja os [[BTI|projetos integradores]]

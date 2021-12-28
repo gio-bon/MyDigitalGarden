@@ -6,7 +6,9 @@ permalink: /about
 
 <img src="/assets/photo-profile.jpg" width="200" align="left"/> <br><br><br><br><br><br><br>
 
-🎓 Sou estudante de ciência da computação na Univesp, no curso de [[Bacharelado em Tecnologia da Informação]] e atualmente trabalho com desenvolvimento web.
+🎓 Sou estudante de ciência da computação na Univesp, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho com desenvolvimento web.
+
+Meus [[projetos]] 🚧.
 
 Minhas outras redes:
 
