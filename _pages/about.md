@@ -6,4 +6,10 @@ permalink: /about
 
 *This is an about page.*
 
-Feel free to tell the world about what you love! 😍
+🎓 Sou estudante de ciência da computação na Univesp, no curso de [[Bacharelado em Tecnologia da Informação]] e atualmente trabalho com desenvolvimento web.
+
+Minhas outras redes:
+
+- [GitHub](https://github.com/gio-bon)
+- [LinkedIn](https://www.linkedin.com/in/gio-bon/)
+- [Telegram](https://t.me/giobon)
