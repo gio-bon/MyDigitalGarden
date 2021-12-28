@@ -4,7 +4,7 @@ title: Your first seed
 
 ### Welcome!
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
 
 ### Link syntax
 
@@ -71,8 +71,6 @@ If you'd like to quote other people, consider using quote blocks:
 > Lorem ipsum dolor sit amet
 
 And of course, images look great:
-
-<img src="/assets/image.jpg"/>
 
 You can also ==highlight some content== by wrapping it with `==`.
 
