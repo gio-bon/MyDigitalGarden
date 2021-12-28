@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-<img src="/assets/photo-profile.jpg"/>
+<img src="/assets/photo-profile.jpg" width="200"/>
 
 🎓 Sou estudante de ciência da computação na Univesp, no curso de [[Bacharelado em Tecnologia da Informação]] e atualmente trabalho com desenvolvimento web.
 
