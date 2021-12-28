@@ -1,4 +1,4 @@
 ---
-title: aprendizados
+title: Aprendizados
 ---
 
