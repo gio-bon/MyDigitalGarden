@@ -5,10 +5,11 @@ id: home
 permalink: /
 ---
 
+<a class="internal-link" href="/about">Sobre mim</a>, e meus [[Projetos|projetos]]. <br>
 Este é meu Digital Garden. 🪴 <br>
-<a class="internal-link" href="/about">Sobre mim.</a>
 Minha inspiração para criá-lo é a ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br><br>
-Fique à vontade para explorar meu gráfico de notas: <br>
+
+Explore meu gráfico de notas: <br>
 
 {% include notes_graph.html %}
 

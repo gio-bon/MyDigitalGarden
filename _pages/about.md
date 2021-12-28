@@ -13,5 +13,3 @@ Minhas outras redes:
 - [GitHub](https://github.com/gio-bon)
 - [LinkedIn](https://www.linkedin.com/in/gio-bon/)
 - [Telegram](https://t.me/giobon)
-
-<script src="https://gist.github.com/gio-bon/ca5067d27bdcf70ac30a15bef404fb67.js"></script>
