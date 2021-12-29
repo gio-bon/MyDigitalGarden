@@ -15,7 +15,7 @@ title: Links
 - [How do computers read code? - YouTube](https://www.youtube.com/watch?v=QXjU9qTsYCc)
 
 ## Algoritmos e Estrutura de Dados
-- [Certificação Algoritmos e estruturas de dados em JavaScript | freeCodeCamp.org](https://www.freecodecamp.org/portuguese/learn/javascript-algorithms-and-data-structures/)
+- [Certificação Algoritmos e estruturas de dados em JavaScript - freeCodeCamp.org](https://www.freecodecamp.org/portuguese/learn/javascript-algorithms-and-data-structures/)
 - [Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms)
 
 ## Desafios de Código
