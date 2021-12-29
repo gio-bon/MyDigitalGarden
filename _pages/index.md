@@ -12,12 +12,4 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
 - [[Aprendizados]] 🧠
 - [[Links]] 🔗  <br>
 
-Explore meu mapa de notas 🗺️: <br>
-
-{% include notes_graph.html %}
-
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+Explore meu [[Mapa de notas]] 🗺️ <br>
