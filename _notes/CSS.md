@@ -9,38 +9,38 @@ Cascading Style Sheet, ou folhas de estilo em cascata serve para possamos estili
 Em elementos, `style` é um atributo utilizado para definir estilos a um elemento, como tamanho, fonte e muito mais.
 
 ``` html
-  <body>
-	  <p style="font-size: 12px; color: aquamarine;">Lorem Ipsum</p>
-  </body>
+<body>
+  <p style="font-size: 12px; color: aquamarine;">Lorem Ipsum</p>
+</body>
 ```
 
 Em `<head>` o CSS é aplicado apenas à página em questão
 ``` html
-	<head>
-	<!-- Adicionamos a tag style aqui para podermos estilizar nossa página -->
-	  <style>
-		.box-red {
-		  background-color: red;
-		  width: 100px;
-		  height: 100px;
-		}
-	  </style>
-	</head>
-	<body>
+<head>
+<!-- Adicionamos a tag style aqui para podermos estilizar nossa página -->
+  <style>
+	.box-red {
+	  background-color: red;
+	  width: 100px;
+	  height: 100px;
+	}
+  </style>
+</head>
+<body>
 ```
 
 Dentro de `<head>`  `link` é usado para indicar o arquivo `.css` que será usado como para estilizar a página
 ``` html
-	<head>
-	 <!-- Aqui adicionamos a tag link, com referência para nosso arquivo CSS -->
-	 <link rel="stylesheet" href="css/main.css">
-	</head>
+<head>
+ <!-- Aqui adicionamos a tag link, com referência para nosso arquivo CSS -->
+ <link rel="stylesheet" href="css/main.css">
+</head>
 ```
 - `rel` = a relação que esse link tem com nosso arquivo (nesse caso é um stylesheet).
 - `href` = a referência de onde esse arquivo está (no nosso caso, dentro da pasta *css* com o nome *main.css*).
 
 ## Regra CSS
-	- Composto por seletores, propriedades e valores.
+Composto por seletores, propriedades e valores.
 ```css
   seletor {
 	propriedade: valor;
@@ -310,8 +310,9 @@ Display influencia na forma como os elementos são dispostos na tela.
 	- O display inline também possui um funcionamento bastante simples, podemos dizer que se o display block ocupa todo espaço disponível, o display inline é totalmente o contrário, ocupando somente o tamanho correspondente ao seu conteúdo.
 - `inline-block`
 	- É uma "junção" dos dois anteriores, mas com ele você tem um comportamento inline, ou seja, por padrão o elemento irá ocupar o espaço demandado pelo seu conteúdo, mas com uma característica herdada do display block, você pode setar o tamanho (largura e altura) que desejar sem restrições.
-- `box-shadow`
-- É utilizado para adicionar efeitos de sombra em volta de um elemento, descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco, propagação do raio e cor.
+
+### `box-shadow`
+É utilizado para adicionar efeitos de sombra em volta de um elemento, descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco, propagação do raio e cor.
 ``` css
 	  div {
 		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -322,9 +323,6 @@ Display influencia na forma como os elementos são dispostos na tela.
 - O terceiro valor `2px` equivale ao blur, que a sombra vai ter `blur-radius`.
 - E o ultimo atributo `rgba(0, 0, 0, 0.2)` é a cor que essa sombra vai receber `color`.
 O [Box-shadow generator](https://www.cssmatic.com/box-shadow) é uma ferramenta interativa que permite a criação de box-shadow.
-
-- [ ] `z-Index` comportamento de camadas do CSS, o padrão é `z-index: 0`
-- [ ] `transition` transições de elementos
 		
 ## Box Model
 Box model é basicamente uma caixa, um box, que está envolta de cada elemento HTML. Ela é composta por margem, bordas, preenchimento e o conteúdo.
@@ -350,6 +348,13 @@ Utilizando a variável:
 	  background-color: var(--text-primary);
 	  }
 ```
+
+
+- [ ] `z-Index` comportamento de camadas do CSS, o padrão é `z-index: 0`
+- [ ] `transition` transições de elementos
+- [ ] Flexbox
+- [ ] Grid
+- [ ] Bootstrap é um framework web front-end de código aberto. - Como funcionamento, já possuí classes criadas, com estilização CSS e até mesmo scripts JS já desenvolvidos, a única coisa que deve aprender é como utilizá-los. Para isso tem a documentação: [Bootstrap em Português](https://getbootstrap.com.br/)
 
 ---
 
