@@ -104,7 +104,7 @@ a {
 .link-no-dec{
   text-decoration: none;
   &:after {
-    content: "" !important;
+    content: none !important;
   }
 }
 
