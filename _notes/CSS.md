@@ -310,19 +310,6 @@ Display influencia na forma como os elementos são dispostos na tela.
 	- O display inline também possui um funcionamento bastante simples, podemos dizer que se o display block ocupa todo espaço disponível, o display inline é totalmente o contrário, ocupando somente o tamanho correspondente ao seu conteúdo.
 - `inline-block`
 	- É uma "junção" dos dois anteriores, mas com ele você tem um comportamento inline, ou seja, por padrão o elemento irá ocupar o espaço demandado pelo seu conteúdo, mas com uma característica herdada do display block, você pode setar o tamanho (largura e altura) que desejar sem restrições.
-
-### `box-shadow`
-É utilizado para adicionar efeitos de sombra em volta de um elemento, descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco, propagação do raio e cor.
-``` css
-	  div {
-		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-	  }
-```
-- O primeiro valor `2px` equivale ao eixo x da pagina `offset-x`.
-- O segundo valor `2px` equivale ao eixo y da pagina `offset-y`.
-- O terceiro valor `2px` equivale ao blur, que a sombra vai ter `blur-radius`.
-- E o ultimo atributo `rgba(0, 0, 0, 0.2)` é a cor que essa sombra vai receber `color`.
-O [Box-shadow generator](https://www.cssmatic.com/box-shadow) é uma ferramenta interativa que permite a criação de box-shadow.
 		
 ## Box Model
 Box model é basicamente uma caixa, um box, que está envolta de cada elemento HTML. Ela é composta por margem, bordas, preenchimento e o conteúdo.
@@ -349,12 +336,26 @@ Utilizando a variável:
 	  }
 ```
 
+### box-shadow
+É utilizado para adicionar efeitos de sombra em volta de um elemento, descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco, propagação do raio e cor.
+``` css
+	  div {
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	  }
+```
+- O primeiro valor `2px` equivale ao eixo x da pagina `offset-x`.
+- O segundo valor `2px` equivale ao eixo y da pagina `offset-y`.
+- O terceiro valor `2px` equivale ao blur, que a sombra vai ter `blur-radius`.
+- E o ultimo atributo `rgba(0, 0, 0, 0.2)` é a cor que essa sombra vai receber `color`.
+O [Box-shadow generator](https://www.cssmatic.com/box-shadow) é uma ferramenta interativa que permite a criação de box-shadow.
+
+---
 
 - [ ] `z-Index` comportamento de camadas do CSS, o padrão é `z-index: 0`
 - [ ] `transition` transições de elementos
 - [ ] Flexbox
 - [ ] Grid
-- [ ] Bootstrap é um framework web front-end de código aberto. - Como funcionamento, já possuí classes criadas, com estilização CSS e até mesmo scripts JS já desenvolvidos, a única coisa que deve aprender é como utilizá-los. Para isso tem a documentação: [Bootstrap em Português](https://getbootstrap.com.br/)
+- [ ] Bootstrap é um framework web front-end de código aberto. Como funcionamento, já possuí classes criadas, com estilização CSS e até mesmo scripts JS já desenvolvidos, a única coisa que deve aprender é como utilizá-los. Para isso tem a documentação: [Bootstrap em Português](https://getbootstrap.com.br/)
 
 ---
 
