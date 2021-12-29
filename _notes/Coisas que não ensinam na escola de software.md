@@ -1,5 +1,5 @@
 ---
-title: Coisas que eles não ensinam na escola de software
+title: Coisas que não ensinam na escola de software
 ---
 
 Fonte: [Things they don't teach you in software school](https://sneub.gumroad.com/l/gxwwsl)
