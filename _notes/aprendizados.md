@@ -3,8 +3,8 @@ title: Aprendizados
 ---
 
 ## Tecnologias
-[[HTML]]
-[[CSS]]
+- [[HTML]]
+- [[CSS]]
 
 ## Carreira
 - [[SODS-21|Stack Overflow Developer Survey 2021]] 🔗
