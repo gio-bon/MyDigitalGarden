@@ -9,7 +9,7 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks)🪴, escrito com [obs
 
 <a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻, meus [[Projetos|projetos]] 🚧, [[referências]] 🔗 e meus [[aprendizados]] 🧠. <br>
 
-Explore meu gráfico de notas: <br>
+Explore meu mapa de notas 🗺️: <br>
 
 {% include notes_graph.html %}
 
