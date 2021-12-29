@@ -18,7 +18,8 @@ Tags são usadas para renderizar os elementos de uma página, tem uma abertura e
 - `<body>` define o corpo do documento
 
 ### Semânticas
-- `<header>` é utilizada como um contêiner que contém o conteúdo introdutório ou de navegação da página.
+
+- `header` é utilizada como um contâiner que contém o conteúdo introdutório ou de navegação da página.
 ``` html
   <header>
 	  <h1>He4rt Devs</h1>
@@ -27,7 +28,7 @@ Tags são usadas para renderizar os elementos de uma página, tem uma abertura e
 ```
 Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro `header`
 
-- `<nav>` é utilizada para representar uma seção da página que contém um conjunto de links de navegação
+- `nav` é utilizada para representar uma seção da página que contém um conjunto de links de navegação
 ``` html
   <nav>
 	  <a *href*="home.html">Home</a>
@@ -61,7 +62,7 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentr
   </article>
 ```
 
-- `<aside>` é utilizada para especificar um conteúdo que está relacionado de forma indireta ao conteúdo que está ao seu entorno.
+- `<aside>` é usada para especificar um conteúdo que está relacionado de forma indireta ao conteúdo que está no seu entorno.
 ``` html
   <p>Programador é alguém que escreve, desenvolve ou faz manutenção de software em um grande sistema ou alguém que desenvolve software para uso em computadores pessoais.</p>
   <aside>
@@ -403,5 +404,5 @@ Exemplo
 ```
 
 ---
-#teste
+
 [[Refs HTML]]
