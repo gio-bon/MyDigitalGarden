@@ -101,11 +101,16 @@ a {
   }
 }
 
-.link-no-dec{
+.link-copyright{
   text-decoration: none;
   &:after {
     position: relative;
     content: none !important;
+  }
+  &.internal-link:after,
+  &.footnote:after,
+  &.reversefootnote:after {
+    content: none;
   }
 }
 
