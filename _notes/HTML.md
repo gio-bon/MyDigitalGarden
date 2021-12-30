@@ -1,8 +1,6 @@
-    
-
----  
-title: HTML  
----  
+---
+title: HTML
+---
   
 Linguagem de Marcação de HiperTexto é o bloco de construção mais básico da web, utilizada para desenvolver páginas e documentos para a internet garantindo a formatação ideal para sites.  
 - **Elemento HTML** contêm Tags de abertura e fechamento (as vezes não), atributos e o conteúdo. `<h1 atributo="tal">conteúdo</h1>`  
