@@ -41,7 +41,7 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentr
 	<h2>Linguagens</h2>
 	<p>PHP, Javascript, Ruby</p>
   </section>
-  - <section>
+    <section>
 	<h2>Frameworks</h2>
 	<p>Laravel, NodeJS, Ruby on Rails</p>
   </section>
