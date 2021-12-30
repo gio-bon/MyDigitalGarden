@@ -9,7 +9,6 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
 
 - <a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻
 - [[Projetos]] 🚧 	
-- [[Aprendizados]] 🧠
-- [[Links]] 🔗  <br>
+- [[Estudos]] 🧠 <br>
 
 Explore meu [[Mapa de notas]] 🗺️ <br>

@@ -41,7 +41,7 @@ Qualquer mudança que ocorra em um repositório será notada, pois os blobs, thr
 ### Chaves SSH
 Forma de autenticação de usuários no Github por criar uma conexão segura e encriptada entre duas máquinas (o próprio github e o seu pc). Funciona com chaves públicas e chaves privadas.
 
-**Tutorial**
+Tutorial
 - Para criar a chave: `ssh-keygen -t ed25519 -C seuemail@gmail.com`
 - Em home/.ssh: `cat id_rsa.pub`
 - Copiar conteúdo (chave pública) e colar no github, em nova chave (Settings > SSH and GPG Keys > New SSH Key)
@@ -49,7 +49,7 @@ Forma de autenticação de usuários no Github por criar uma conexão segura e e
 #### Token
 Outra forma de autenticar para enviar mudanças, você coloca o e-mail e usa esse token como senha.
 
-**Tutorial**
+Tutorial
 - Settings > Developer settings > Personal acess token > Generate new token
 - Select scope > repo e data de expiração
 - Copie o token quando gerado
@@ -71,7 +71,7 @@ Repositório de desenvolvimento, ou local, é o seu pc em que você trabalha soz
 - O conteúdo do repo local vai para o remoto através dos commit feitos e com o comando `git push`
 - Saber para onde aponta (remotamente) um repo local com o comando `git remote -v`
 
-Fluxos possíveis para traalhar com repositórios remotos:
+Fluxos possíveis para trabalhar com repositórios remotos:
 Criar um novo repositório na linha de comando
 
 ```bash
@@ -147,7 +147,7 @@ Master─────────────────────Hotfix
 
 `Master` - branch responsável pelo ambiente que roda em Produção
 - `Hotfix`(es) - responsável por corrigir algum erro critico que impeça o cliente de executar alguma função em ambiente de produção.
-- 
+
 `Releases` - responsável por gerenciar e documentar todas as alterações feitas a cada deploy
 `Develop` - branch onde sempre será criada e/ou mergeadas novas features
 - `Bugfix`(es) - responsável por corrigir bugs pequenos em ambiente de desenvolvimento (develop) ou homologação (release).
