@@ -5,6 +5,7 @@ title: Aprendizados
 ## Tecnologias
 - [[HTML]]
 - [[CSS]]
+- [[Git e Github]]
 
 ## Carreira
 - [[SODS-21|Stack Overflow Developer Survey 2021]] 🔗
