@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Home
-id: home
-permalink: /
+title: Map
+permalink: /map
 ---
 
 {% include notes_graph.html %}
