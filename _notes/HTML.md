@@ -364,6 +364,7 @@ Tipos de marcadores `<ol type="valor">`
 - `type="i"` Algarismos Romanos em minúsculO i,ii,iii...
 
 `<dl>` lista de descrição
+
 ``` html
   <dl>
 	  <dt>He4rt Developers</dt>
@@ -371,7 +372,7 @@ Tipos de marcadores `<ol type="valor">`
 	  <dt>4noobs</dt>
 		<dd>Projetos desenvolvidos para facilitar o estudos dos devs iniciantes feitos pela nossa comunidade!</dd>
   </dl>
-	  ```
+```
 - `<dt>` define o nome que será descrito e a tag `<dd>` é a descrição.
 
 ## Tabelas
@@ -404,9 +405,3 @@ Exemplo
 ---
 
 [[Refs HTML]]
-
-<style>
-  .body {
-    max-width: 46em;
-  }
-</style>
