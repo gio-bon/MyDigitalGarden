@@ -99,3 +99,7 @@ Quando dois ouvintes de evento vão para a mesma função, há como diferenciar 
   botao.addEventListener('click', funcaoTal); //1 ouvinte de evento
   window.addEventListener('keydown', funcaoTal); //2 ouvinte de evento
 ```
+
+---
+
+- [Manipulação de DOM com JavaScript, do zero, na prática | Masterclass #18 - YouTube](https://www.youtube.com/watch?v=UftSB4DaRU4)

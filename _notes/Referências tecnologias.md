@@ -26,12 +26,3 @@ title: Referências tecnologias
 
 ## Design Patterns
 - [Padrões de Projeto / Design patterns](https://refactoring.guru/pt-br/design-patterns)
-
----
-
-- [[Refs HTML]]
-- [[Refs CSS]]
-- [[Refs JavaScript]]
-- [[Refs DOM]]
-- [[Refs Git]]
-- [[Refs Linux e Linha de Comando]]

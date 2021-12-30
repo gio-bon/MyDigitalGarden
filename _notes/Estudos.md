@@ -5,8 +5,10 @@ title: Estudos
 ## Tecnologias
 - [[HTML]]
 - [[CSS]]
-- [[Git e Github]]
+- [[JavaScript]]
 - [[DOM]]
+- [[Linux e Linha de Comando]]
+- [[Git e Github]]
 
 - [[Referências tecnologias]] 🔗
 
