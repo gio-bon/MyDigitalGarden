@@ -1,5 +1,8 @@
 ---
-title: Mapa de notas
+layout: page
+title: Home
+id: home
+permalink: /
 ---
 
 {% include notes_graph.html %}

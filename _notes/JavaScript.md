@@ -2,7 +2,7 @@
 title: JavaScript
 ---
 
-- [[Linux e Linha de Comando]]
+
 
 ---
 
