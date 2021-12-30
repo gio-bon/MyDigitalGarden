@@ -23,11 +23,8 @@ Tags são usadas para renderizar os elementos de uma página, tem uma abertura e
 ``` html
 
 <header>
-
-<h1>He4rt Devs</h1>
-
-<img src="./img/logo.png">
-
+	<h1>He4rt Devs</h1>
+	<img src="./img/logo.png">
 </header>
 
 ```
@@ -39,13 +36,9 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro 
 ``` html
 
 <nav>
-
-<a href="home.html">Home</a>
-
-<a href="about.html">About</a>
-
-<a href="contact.html">Contact</a>
-
+	<a href="home.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
 </nav>
 
 ```
@@ -55,19 +48,13 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro 
 ``` html
 
 <section>
-
-<h2>Linguagens</h2>
-
-<p>PHP, Javascript, Ruby</p>
-
+	<h2>Linguagens</h2>
+	<p>PHP, Javascript, Ruby</p>
 </section>
 
 <section>
-
-<h2>Frameworks</h2>
-
-<p>Laravel, NodeJS, Ruby on Rails</p>
-
+	<h2>Frameworks</h2>
+	<p>Laravel, NodeJS, Ruby on Rails</p>
 </section>
 
 ```
@@ -77,21 +64,13 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro 
 ``` html
 
 <article>
-
-<h5>PHP</h5>
-
-<p>É uma linguagem interpretada livre...</p>
-
+	<h5>PHP</h5>
+	<p>É uma linguagem interpretada livre...</p>
 </article>
 
-  
-
 <article>
-
-<h5>Javascript</h5>
-
-<p>É uma linguagem de programação interpretada estruturada...</p>
-
+	<h5>Javascript</h5>
+	<p>É uma linguagem de programação interpretada estruturada...</p>
 </article>
 
 ```
@@ -103,11 +82,8 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro 
 <p>Programador é alguém que escreve, desenvolve ou faz manutenção de software em um grande sistema ou alguém que desenvolve software para uso em computadores pessoais.</p>
 
 <aside>
-
-<h5>He4rt Devs</h5>
-
-<p>A He4rt Developers foi criada com o intuito de guiar quem deseja iniciar na área da programação.</p>
-
+	<h5>He4rt Devs</h5>
+	<p>A He4rt Developers foi criada com o intuito de guiar quem deseja iniciar na área da programação.</p>
 </aside>
 
 ```
@@ -117,11 +93,8 @@ Não pode ser colocada dentro de uma tag `footer`, `address` ou dentro de outro 
 ``` html
 
 <footer>
-
-<p>He4rt, todos os direitos reservados.</p>
-
-<p><a href="https://github.com/he4rt">Github</a></p>
-
+	<p>He4rt, todos os direitos reservados.</p>
+	<p><a href="https://github.com/he4rt">Github</a></p>
 </footer>
 
 ```
@@ -133,11 +106,8 @@ Fazem parte do rodapé: informações sobre o autor, direitos autorais, links pa
 ``` html
 
 <div>
-
-<h2>Nossos serviços</h2>
-
-<p>Montagem e manutenção de computadores</p>
-
+	<h2>Nossos serviços</h2>
+	<p>Montagem e manutenção de computadores</p>
 </div>
 
 ```  
@@ -147,9 +117,9 @@ Fazem parte do rodapé: informações sobre o autor, direitos autorais, links pa
 
 ``` html  
 <ul>  
-<li>Carro</li>  
-<li>Moto</li>  
-<li>Avião</li>  
+	<li>Carro</li>  
+	<li>Moto</li>  
+	<li>Avião</li>  
 </ul>  
 ```  
 Tipos de marcadores `<ul type="valor">`  
@@ -161,9 +131,9 @@ Tipos de marcadores `<ul type="valor">`
 
 ``` html  
 <ol>  
-<li>Carro</li>  
-<li>Moto</li>  
-<li>Avião</li>  
+	<li>Carro</li>  
+	<li>Moto</li>  
+	<li>Avião</li>  
 </ol>  
 ```  
 Tipos de marcadores `<ol type="valor">`  
@@ -177,10 +147,10 @@ Tipos de marcadores `<ol type="valor">`
   
 ``` html  
 <dl>  
-<dt>He4rt Developers</dt>  
-<dd>Uma comunidade de desenvolvedores ajudando os iniciantes do mundo da programação.</dd>  
-<dt>4noobs</dt>  
-<dd>Projetos desenvolvidos para facilitar os estudos dos devs iniciantes feitos pela nossa comunidade!</dd>  
+	<dt>He4rt Developers</dt>  
+		<dd>Uma comunidade de desenvolvedores ajudando os iniciantes do mundo da programação.</dd>  
+	<dt>4noobs</dt>  
+		<dd>Projetos desenvolvidos para facilitar os estudos dos devs iniciantes feitos pela nossa comunidade!</dd>  
 </dl>  
 ```  
 - `<dt>` define o nome que será descrito e a tag `<dd>` é a descrição.  
@@ -195,21 +165,21 @@ Exemplo
 
 ``` html  
 <table border="1">  
-<tr> <!-- Linha que contêm os cabeçalhos -->  
-<th>Cabeçalho 1</th>  
-<th>Cabeçalho 2</th>  
-<th>Cabeçalho 3</th>  
-</tr>  
-<tr> <!-- Linha que contêm os dados/células -->  
-<td>Célula 1</td>  
-<td>Célula 2</td>  
-<td>Célula 3</td>  
-</tr>  
-<tr> <!-- Linha que contêm os dados/células -->  
-<td>Célula 4</td>  
-<td>Célula 5</td>  
-<td>Célula 6</td>  
-</tr>  
+	<tr> <!-- Linha que contêm os cabeçalhos -->  
+		<th>Cabeçalho 1</th>  
+		<th>Cabeçalho 2</th>  
+		<th>Cabeçalho 3</th>  
+	</tr>  
+	<tr> <!-- Linha que contêm os dados/células -->  
+		<td>Célula 1</td>  
+		<td>Célula 2</td>  
+		<td>Célula 3</td>  
+	</tr>  
+	<tr> <!-- Linha que contêm os dados/células -->  
+		<td>Célula 4</td>  
+		<td>Célula 5</td>  
+		<td>Célula 6</td>  
+	</tr>  
 </table>  
 ```  
   
@@ -220,7 +190,7 @@ Atributos servem para definir uma propriedade de um elemento HTML e são sempre 
 
 ``` html  
 <body>  
-<p id="contato"> Entre em contato </p>  
+	<p id="contato"> Entre em contato </p>  
 </body>  
 ```  
   
@@ -228,8 +198,8 @@ Atributos servem para definir uma propriedade de um elemento HTML e são sempre 
 
 ``` html  
 <body>  
-<p class="paragrafo"> Entre em contato </p>  
-<p class="paragrafo"> Entre em contato </p>  
+	<p class="paragrafo"> Entre em contato </p>  
+	<p class="paragrafo"> Entre em contato </p>  
 </body>  
 ```  
   
@@ -238,7 +208,7 @@ Atributos servem para definir uma propriedade de um elemento HTML e são sempre 
 ``` html  
 <head>  
 <!-- Aqui adicionamos a tag link, com referência para nosso arquivo CSS -->  
-<link rel="stylesheet" href="css/main.css">  
+	<link rel="stylesheet" href="css/main.css">  
 </head>  
 ```  
 - `rel` a relação que esse link tem com nosso arquivo (nesse caso é um stylesheet).  
@@ -250,7 +220,7 @@ Atributos servem para definir uma propriedade de um elemento HTML e são sempre 
 
 ``` html  
 <body>  
-<p style="font-size: 12px; color: aquamarine;">Lorem Ipsum</p>  
+	<p style="font-size: 12px; color: aquamarine;">Lorem Ipsum</p>  
 </body>  
 ```  
   
@@ -359,9 +329,7 @@ Link de imagens: transformar imagens como links
 `<p>` cria parágrafos e é um Elemento de bloco  
 
 ``` html  
-<p> Texto
-
-</p>  
+<p> Texto </p>  
 ```  
   
 `<span>`é uma tag inline que pode ser usada para criar uma seção em um parágrafo que pode ser direcionada usando CSS.  
@@ -380,11 +348,11 @@ Link de imagens: transformar imagens como links
 
 ``` html  
 <h1>Título 1</h1>  
-<h2>Título 2</h2>  
-<h3>Título 3</h3>  
-<h4>Título 4</h4>  
-<h5>Título 5</h5>  
-<h6>Título 1</h6>  
+	<h2>Título 2</h2>  	
+		<h3>Título 3</h3>  
+			<h4>Título 4</h4>  
+				<h5>Título 5</h5>  
+					<h6>Título 1</h6>  
 ```  
   
 `<strong>` marca um trecho de texto como importante, o estilizando em negrito > `<strong>texto</strong>`  
@@ -406,9 +374,8 @@ Link de imagens: transformar imagens como links
 
 ``` html  
 <video controls>  
-<source src="video.mp4" type="video/mp4">  
-<source src="video.ogg" type="video/ogg">  
-Seu navegador não possui suporte para Vídeos.  
+	<source src="video.mp4" type="video/mp4">  
+	<source src="video.ogg" type="video/ogg">    
 </video>  
 ```  
 - `source src` local de origem do arquivo de vídeo;  
@@ -418,9 +385,8 @@ Seu navegador não possui suporte para Vídeos.
 
 ``` html  
 <audio controls>  
-<source src="musica.ogg" type="audio/ogg">  
-<source src="musica.mp3" type="audio/mpeg">  
-Seu navegador não possui suporte para áudio.  
+	<source src="musica.ogg" type="audio/ogg">  
+	<source src="musica.mp3" type="audio/mpeg">   
 </audio>  
 ```  
 - `source src` local de origem do arquivo de áudio;  
@@ -429,9 +395,7 @@ Seu navegador não possui suporte para áudio.
 `<iframe>` têm como função incluir recursos de outra página. 
 
 ``` html  
-<iframe src="https://heartdevs.com/">  
-<p>Seu navegador não possui suporte para iFrames.</p>  
-</iframe>  
+<iframe src="https://heartdevs.com/"></iframe>  
 ```  
 - `src` local de origem da página a ser exibida;  
   
@@ -440,11 +404,11 @@ Exemplo
 
 ``` html  
 <form action="backend.php">  
-<label for="nome">Primeiro Nome:</label>  
-<input type="text" id="pnome" name="pnome"><br><br>  
-<label for="ultimonome">Último Nome:</label>  
-<input type="text" id="unome" name="unome"><br><br>  
-<input type="submit" value="Enviar">  
+	<label for="nome">Primeiro Nome:</label>  
+	<input type="text" id="pnome" name="pnome"><br><br>  
+	<label for="ultimonome">Último Nome:</label>  
+	<input type="text" id="unome" name="unome"><br><br>  
+	<input type="submit" value="Enviar">  
 </form>  
 ```  
 - `form` está iniciando o formulário;  
