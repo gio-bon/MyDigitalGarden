@@ -9,7 +9,6 @@ title: Estudos
 	- [[DOM]]
 	- [[JavaScript Assíncrono]]
 	- [[JSON]]
-- [[Linux e Linha de Comando]]
 - [[Git e Github]]
 - [[Linux e Linha de Comando]]
 - [[Bash]]
