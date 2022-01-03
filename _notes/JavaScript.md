@@ -448,7 +448,7 @@ Percorre cada elemento de um array-js executando uma função que é passada com
   console.log(sum1, sum2); //120 60
 ```
 
-[Qual a diferença entre for in, for of e forEach no JavaScript? | by João Victor Pereira Santos | Medium](https://medium.com/@joaovictorpsantos/qual-a-diferen%C3%A7a-entre-for-in-for-of-e-foreach-no-javascript-7af6f6a56eea)
+[Qual a diferença entre for in, for of e forEach no JavaScript? by João Victor Pereira Santos - Medium](https://medium.com/@joaovictorpsantos/qual-a-diferen%C3%A7a-entre-for-in-for-of-e-foreach-no-javascript-7af6f6a56eea)
 
 #### While
 Executa instruções até que a condição se torne falsa
@@ -609,7 +609,7 @@ let hello = nome => `Hello World ${nome}`;
 	- Diferenças em relação ao this-js
 	- Não existem os `arguments`
 	- Não funciona com construtores
-[Arrow Functions — Declaração, funcionamento, escopos e o valor de this | by Raphael Lima | Medium](https://medium.com/@raphalima8/arrow-functions-declara%C3%A7%C3%A3o-funcionamento-escopos-e-o-valor-de-this-9cb6449bca31)
+[Arrow Functions — Declaração, funcionamento, escopos e o valor de this by Raphael Lima - Medium](https://medium.com/@raphalima8/arrow-functions-declara%C3%A7%C3%A3o-funcionamento-escopos-e-o-valor-de-this-9cb6449bca31)
 
 ## Escopos
 Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código. Em outras palavras, o escopo é quem determina quais são os dados que podem ser acessados em uma determinada parte do código.
@@ -710,7 +710,7 @@ console.log(meuSet) // Set { 1, 'texto', { a: 1, b: 2 }, { a: 1, b: 2 } }
 - Sozinho e em funções, o `this` vai se referir ao objeto global (em navegadores é o objeto `window`)
 - Em eventos, o `this` será o próprio elemento que recebeu o evento.
 
-[Entendendo This, Bind, Call e Apply no JavaScript | Maicon Silva](https://www.maiconsilva.com/entendendo-this-bind-call-e-apply-no-javascript/)
+[Entendendo This, Bind, Call e Apply no JavaScript by Maicon Silva](https://www.maiconsilva.com/entendendo-this-bind-call-e-apply-no-javascript/)
 
 ### `call` e `apply`
 Ambos fazem a mesma coisa. Diferença é na forma como são passados os argumentos para dentro dos métodos. Com o `apply` é possível passar um arry de argumentos => [JavaScript Function Apply()](https://www.w3schools.com/js/js_function_apply.asp)
@@ -818,7 +818,7 @@ Veja: [[JavaScript Assíncrono]]
 **Roteiro**:
 - [x] Síntaxe e construtores básicos
 - [x] Aprender a manipular o [[DOM]]
-- [ ] Aprender Fetch API / Ajax (XHR)
+- [ ] Aprender [[Fetch API]] / Ajax (XHR)
 - [ ] ES6+ e JavaScript Modular
 
 Entender os conceitos:
@@ -841,9 +841,9 @@ Frameworks
 
 ---
 
-[javascript4noobs: Este repositório tem como propósito fornecer uma iniciação na linguagem.](https://github.com/ThiagoDellaNoce/javascript4noobs) 
-[braziljs/eloquente-javascript: Tradução do livro Eloquent JavaScript - 2ª edição.](https://github.com/braziljs/eloquente-javascript)
-[The Modern JavaScript Tutorial](https://javascript.info/)
-[33 JavaScript concepts every developer should know.](https://github.com/leonardomso/33-js-concepts)
-[You-Dont-Know-JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
-[airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [javascript4noobs: Este repositório tem como propósito fornecer uma iniciação na linguagem.](https://github.com/ThiagoDellaNoce/javascript4noobs) 
+- [braziljs/eloquente-javascript: Tradução do livro Eloquent JavaScript - 2ª edição.](https://github.com/braziljs/eloquente-javascript)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
+- [33 JavaScript concepts every developer should know.](https://github.com/leonardomso/33-js-concepts)
+- [You-Dont-Know-JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
+- [airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript)

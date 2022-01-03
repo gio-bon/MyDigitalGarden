@@ -369,5 +369,5 @@ echo "x is $x"
 
 ---
 
-[DantasB/Bash4Noobs: Tutorial de Bash para iniciantes](https://github.com/DantasB/Bash4Noobs)
-[Online Bash Shell - online editor](https://www.onlinegdb.com/online_bash_shell)
+- [DantasB/Bash4Noobs: Tutorial de Bash para iniciantes](https://github.com/DantasB/Bash4Noobs)
+- [Online Bash Shell - online editor](https://www.onlinegdb.com/online_bash_shell)

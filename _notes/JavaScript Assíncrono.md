@@ -5,7 +5,7 @@ title: JavaScript Assíncrono
 - Como as APIs da Web geralmente fornecem dados de forma assíncrona, aprender como lidar com o resultado de ações assíncronas é uma parte essencial de ser um desenvolvedor de JavaScript.
 	- Você deve saber como o ambiente do host usa o loop de eventos (Event Loop) para lidar com a ordem de execução do código com a pilha e a fila.
 	- Deve saber das três maneiras de lidar com o sucesso ou a falha de um evento assíncrono, com retornos de chamada (callback), promessas (promises) e funções `async` e sintaxe `await`.
-	- Usar a API Fetch para lidar com ações assíncronas.
+	- Usar a [[Fetch API]] para lidar com ações assíncronas.
 - O código JavaScript que não usa APIs da Web assíncronas será executado de maneira síncrona - um de cada vez, sequencialmente.
 - Quando uma API da Web assíncrona é usada, as regras se tornam mais complicadas. Uma API integrada com a qual você pode testar isso é `setTimeout`, que define um cronômetro e executa uma ação após um determinado período de tempo. `setTimeout` precisa ser assíncrono, caso contrário, todo o navegador permaneceria congelado durante a espera, o que resultaria em uma experiência do usuário ruim.
 - Se você definir o tempo limite para zero segundos ou cinco minutos, não fará diferença pois o console.log chamado pelo código assíncrono será executada após as funções síncronas de nível superior. Isso acontece porque o ambiente de host JavaScript, neste caso o navegador, usa um conceito chamado loop de eventos para lidar com a simultaneidade, ou eventos paralelos. Como o JavaScript só pode executar uma instrução por vez, ele precisa que o loop de eventos seja informado de quando executar cada instrução específica. O loop de eventos lida com isso com os conceitos de **pilha** e **fila**.
@@ -61,9 +61,8 @@ button.addEventListener("click", handleClick)
 - Uma função async pode manipular uma promessa chamada dentro dela usando o `await` operador. `await` pode ser usado dentro de uma função `async` e irá esperar até que uma promessa seja estabelecida antes de executar o código designado.
 - O código JavaScript assíncrono moderno é mais frequentemente tratado com a sintaxe `async/await`, mas é importante ter um conhecimento prático de como as promessas funcionam, especialmente porque as promessas são capazes de recursos adicionais que não podem ser tratados com `async/ await`, como combinar promessas com `Promise.all()`.
 
-- [ ] [[Fetch API]]
-
 ---
 
-[Entendendo funções callback em JavaScript by Victor F. Dos Santos TOTVS Developers - Medium](https://medium.com/totvsdevelopers/entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22)
-[Callback no JavaScript - YouTube](https://www.youtube.com/watch?v=0haWgdHFuJw)
+- [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript | DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript)
+- [Entendendo funções callback em JavaScript by Victor F. Dos Santos TOTVS Developers - Medium](https://medium.com/totvsdevelopers/entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22)
+- [Callback no JavaScript - YouTube](https://www.youtube.com/watch?v=0haWgdHFuJw)
