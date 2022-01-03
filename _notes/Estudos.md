@@ -9,6 +9,8 @@ title: Estudos
 - [[DOM]]
 - [[Linux e Linha de Comando]]
 - [[Git e Github]]
+- [[Linux e Linha de Comando]]
+- [[Bash]]
 - [[Referências tecnologias]] 🔗
 
 ## Carreira
