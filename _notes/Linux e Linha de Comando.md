@@ -82,5 +82,6 @@ Veja [[Bash]]
 ---
 
 - [LucasHe4rt/linux4noobs: Tutorial De Linux para iniciantes em Programação.](https://github.com/lucashe4rt/linux4noobs)
+- [O que é Shell e qual sua função? | Segredo Dev](https://segredo.dev/o-que-e-shell/#como-o-shell-funciona)
 - [GuiaFoca — Site Oficial do GuiaFoca](https://guiafoca.org/)
 - [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)

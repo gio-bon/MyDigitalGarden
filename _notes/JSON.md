@@ -58,6 +58,6 @@ title: JSON
 
 ---
 
-[An Introduction to JSON | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-json)
-- [ ] [How To Work with JSON in JavaScript | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-work-with-json-in-javascript)
-- [ ] [Como usar JSON.parse\(\) e JSON.stringify\(\) | DigitalOcean](https://www.digitalocean.com/community/tutorials/js-json-parse-stringify-pt)
+[An Introduction to JSON - DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-json)
+- [ ] [How To Work with JSON in JavaScript - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-work-with-json-in-javascript)
+- [ ] [Como usar JSON.parse\(\) e JSON.stringify\(\) - DigitalOcean](https://www.digitalocean.com/community/tutorials/js-json-parse-stringify-pt)
