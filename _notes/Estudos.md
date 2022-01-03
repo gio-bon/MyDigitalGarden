@@ -2,11 +2,13 @@
 title: Estudos
 ---
 
-## Tecnologias
+## Index de tecnologias
 - [[HTML]]
 - [[CSS]]
 - [[JavaScript]]
-- [[DOM]]
+	- [[DOM]]
+	- [[JavaScript Assíncrono]]
+	- [[JSON]]
 - [[Linux e Linha de Comando]]
 - [[Git e Github]]
 - [[Linux e Linha de Comando]]

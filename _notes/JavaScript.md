@@ -740,6 +740,8 @@ console.log(callPessoa1);
 ### `bind`
 O principal objetivo do método bind é alterar o contexto `this` de uma função independente de onde a mesma esteja sendo chamada.
 
+Meio que transforma a função em um método do objeto à qual fica ligada.
+
 ``` js
   function thidBindExemplo(){
 	console.log(this.nome);
@@ -751,13 +753,97 @@ O principal objetivo do método bind é alterar o contexto `this` de uma funçã
   thidBindExemplo(); //Bereta Gazola
 ```
 
-Meio que transforma a função em um método do objeto à qual fica ligada.
+## Tratamento de erros
+Ao executar o código JavaScript, podem ocorrer erros diferentes. Os erros podem ser erros de codificação cometidos pelo programador, erros devido a entrada incorreta e outras coisas imprevisíveis.
+
+O Ecmascript Error é um tipo de erro em tempo de execução, já o DOM Exception é um erro referente a DOM.
+- A composição do Ecmascript Error é => mensagem, nome, linha e call stack
+
+### `try` `catch` `finally`
+- `try` permite definir um bloco de código a ser testado quanto a erros enquanto ele está sendo executado.
+- `catch` permite definir um bloco de código a ser executado, se ocorrer um erro no bloco `try`.
+- `finally` permite executar o código, após tentar e capturar, independentemente do resultado.
+
+``` js
+  try {
+	tryCode - Block of code to try
+	//Requeridos. Bloco de código a ser testado para erros enquanto está sendo executado
+  }
+  catch(err) { //Especifica uma variável local que se refere ao erro. 
+	catchCode - Block of code to handle errors 
+	//Opcional. Bloco de código a ser executado, caso ocorra um erro no bloco try. Se nenhum erro ocorrer, este bloco de código nunca é executado
+  }
+  finally {
+	finallyCode - Block of code to be executed regardless of the try / catch result
+	//Opcional. Bloco de código a ser executado independentemente do resultado de tentativa / captura
+  }
+```
+
+### `thow`
+A instrução `throw` permite que você crie um erro personalizado.
+
+``` js
+if (typeof string != 'string') throw "string inválida";
+```
+
+### `error`
+- [ ] TODO
+``` js
+//new Error(message, fileName, lineNumber)
+let meuError = new Error('Muitos erros meou!');
+throw meuError;
+```
+
+[JavaScript Errors Try Catch Throw](https://www.w3schools.com/js/js\_errors.asp)
+
+## Date
+As datas JavaScript são armazenadas internamente como um *valor numérico*. Assim, uma data também pode ser criada ou calculada apartir de um número **expresso em milissegundos**, a contar do dia 1 de janeiro de 1970.
+- 86400000 é o número de milissegundos de um dia (1 dia = 24hor x 60min x 60seg x 1000mseg = 86400000)
+- A variação do **mês** na linguagem JavaScript inicia em 0 e vai até 11. Para o dia e o ano, não há esse problema.
+
+- Declarar uma variável que **recebe a data atual** um (objeto que recebe uma instância do objeto *Date*) > `var hoje = new Date()`
+- Obtêm, retorna números, podendo ser feitos cálculos com os mesmos > `getDate()` `getMonth()` `getFullYear()`
+- Setar (alterar) > `setDate()` `setMonth()` `setFullYear()`
+
+## localStorage
+Serve para salvar, recuperar e remover dados armazenados localmente no navegador. Pode-se acompanhar o conteúdo dessas variáveis nas opções do menu Ferramentas do desenvolvedor disponível no seu navegador (aplicativo > armazenamento local).
+- Para **gravar** um conteúdo no LocalStorage > `localStorage.setItem("chave", valor)`
+- Para **recuperar** o conteúdo no navegador > `localStorage.getItem("chave")`
+- Para **excluir** os dados salvos pelo cliente em seu navegador > `localStorage.removeItem("chave")`
+
+Veja: [[JavaScript Assíncrono]]
 
 ---
 
-- [javascript4noobs: Este repositório tem como propósito fornecer uma iniciação na linguagem.](https://github.com/ThiagoDellaNoce/javascript4noobs) 
-- [braziljs/eloquente-javascript: Tradução do livro Eloquent JavaScript - 2ª edição.](https://github.com/braziljs/eloquente-javascript)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [33 JavaScript concepts every developer should know.](https://github.com/leonardomso/33-js-concepts)
-- [You-Dont-Know-JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
-- [airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript#destructuring)
+**Roteiro**:
+- [x] Síntaxe e construtores básicos
+- [x] Aprender a manipular o [[DOM]]
+- [ ] Aprender Fetch API / Ajax (XHR)
+- [ ] ES6+ e JavaScript Modular
+
+Entender os conceitos:
+	- [ ] Hoisting
+	- [ ] Event Bubbling
+	- [x] Scope (escopos)
+	- [ ] Prototype
+	- [ ] Shadow DOM
+	- [ ] strict mode
+
+Aprenda as peculiaridades
+	- Detalhes sobre tempo de execução, concorrência, modelo de memórias etc
+
+Frameworks
+- Vanilla javascript é o js puro, sem uso de frameworks.
+- VueJS
+- Angular
+- React (biblioteca)
+- JQuery
+
+---
+
+[javascript4noobs: Este repositório tem como propósito fornecer uma iniciação na linguagem.](https://github.com/ThiagoDellaNoce/javascript4noobs) 
+[braziljs/eloquente-javascript: Tradução do livro Eloquent JavaScript - 2ª edição.](https://github.com/braziljs/eloquente-javascript)
+[The Modern JavaScript Tutorial](https://javascript.info/)
+[33 JavaScript concepts every developer should know.](https://github.com/leonardomso/33-js-concepts)
+[You-Dont-Know-JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
+[airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript)
