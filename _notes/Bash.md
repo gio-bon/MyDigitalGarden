@@ -24,7 +24,7 @@ title: Bash
 
 ### printf
 A função `printf` é exatamente similar ao printf do C. Portanto, tambem é necessário passar o formato do argumento na string a ser impressa e posteriormente os parâmetros, como podemos ver melhor abaixo:
-- 
+
 ``` bash
 #! /bin/bash
 
