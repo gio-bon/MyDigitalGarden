@@ -63,6 +63,6 @@ button.addEventListener("click", handleClick)
 
 ---
 
-- [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript | DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript)
+- [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript - DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript)
 - [Entendendo funções callback em JavaScript by Victor F. Dos Santos TOTVS Developers - Medium](https://medium.com/totvsdevelopers/entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22)
 - [Callback no JavaScript - YouTube](https://www.youtube.com/watch?v=0haWgdHFuJw)

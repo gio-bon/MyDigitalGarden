@@ -2,7 +2,10 @@
 title: Estudos
 ---
 
-## Index de tecnologias
+## Index
+- [[Ciência da Computação]]
+- [[Algoritmos e Estrutura de Dados]]
+- [[Design Patterns]]
 - [[HTML]]
 - [[CSS]]
 - [[JavaScript]]
@@ -12,6 +15,8 @@ title: Estudos
 - [[Git e Github]]
 - [[Linux e Linha de Comando]]
 - [[Bash]]
+
+---
 - [[Referências tecnologias]] 🔗
 
 ## Carreira
