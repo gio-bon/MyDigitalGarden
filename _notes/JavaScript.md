@@ -525,6 +525,7 @@ Funções se tornam mais úteis se retornarem um valor, pois dessa forma o progr
 
 ### Parâmetros
 - `arguments` dentro de funções armazena todos os parâmetros ou argumentos passados a uma função.
+
 ``` js
 function mostraArgs(){
 	console.log(arguments);
@@ -536,11 +537,12 @@ function mostraArgs(){
 }
 
 mostraArgs(1, 2, 3, 4);
-//3: [Arguments] { '0': 1, '1': 2, '2': 3, '3': 4 }
-//8: 10
+//`3: [Arguments] { '0': 1, '1': 2, '2': 3, '3': 4 }`
+//`8: 10`
 ```
 
 #### Parâmetro padrão
+
 ``` js
 function Tester(nome, defeito = "idiota"){
 console.log(`${nome} é um(a) ${defeito}!`);
@@ -717,18 +719,18 @@ Ambos fazem a mesma coisa. Diferença é na forma como são passados os argument
 - `apply` -> aceita array de argumentos
 
 ``` js
-const obj1 = { nome: 'Bostinha', mostraThis: function () {
+const obj1 = { nome: 'Maria', mostraThis: function () {
 console.log(this.nome);
 }}
-const obj2 = { nome: 'Merdinha'};
+const obj2 = { nome: 'João'};
 
 obj1.mostraThis.call(obj2);
-obj1.mostraThis(); //merdinha
+obj1.mostraThis(); //João
 ```
 
 ``` js
 let pessoa1 = {nome: 'Pastoso', idade: 18}
-let pessoa2 = {nome: 'Pintola', idade: 33, calculaIdades: function (anos) {return `Daqui a ${anos} anos, ${this.nome} terá ${this.idade + anos} anos de idade.`;}}
+let pessoa2 = {nome: 'Chuvoso', idade: 33, calculaIdades: function (anos) {return `Daqui a ${anos} anos, ${this.nome} terá ${this.idade + anos} anos de idade.`;}}
 
 let callPessoa1 = pessoa2.calculaIdades.call(pessoa1, 2); //call chamando pessoa 1
 console.log(callPessoa1);
@@ -739,14 +741,14 @@ console.log(callPessoa1);
 O principal objetivo do método bind é alterar o contexto `this` de uma função independente de onde a mesma esteja sendo chamada.
 
 ``` js
-	  function thidBindExemplo(){
-	    console.log(this.nome);
-	    console.log(this.sobrenome);
-	  }
-	  
-	  const obj = { nome: 'Bundita', sobrenome: 'Gazola' }
-	  thidBindExemplo = thidBindExemplo.bind(obj); //sem essa linha o this apontaria para "window" (em navegadores)
-	  thidBindExemplo(); //Bundita Gazola
+  function thidBindExemplo(){
+	console.log(this.nome);
+	console.log(this.sobrenome);
+  }
+
+  const obj = { nome: 'Bereta', sobrenome: 'Gazola' }
+  thidBindExemplo = thidBindExemplo.bind(obj); //sem essa linha o this apontaria para "window" (em navegadores)
+  thidBindExemplo(); //Bereta Gazola
 ```
 
 Meio que transforma a função em um método do objeto à qual fica ligada.
