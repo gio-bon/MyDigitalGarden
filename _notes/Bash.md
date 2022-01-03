@@ -85,9 +85,9 @@ echo $((3**2))   #exponenciação
 ```
 
 ### Lógicos
-NOT => `!`
-AND => `&&`
-OR `||`
+- NOT => `!`
+- AND => `&&`
+- OR `||`
 
 ### Comparação
 
@@ -348,21 +348,21 @@ Nesta tabela, você poderá encontrar e descobrir como utilizar algumas dessas v
 O bash permite que o usuário escreva suas próprias funções, também permitindo funções recursivas e não recursivas. Para construi-las é possível observarmos os exemplos abaixo.
 
 ``` bash
-		  #!/bin/bash
-		  
-		  myfunc()
-		  {
-		    echo "I was called as : $@"
-		    x=2
-		  }
-		  
-		  Main script starts here
-		  
-		  echo "Script was called with $@"
-		  x=1
-		  echo "x is $x"
-		  myfunc 1 2 3
-		  echo "x is $x"
+#!/bin/bash
+
+myfunc()
+{
+echo "I was called as : $@"
+x=2
+}
+
+Main script starts here
+
+echo "Script was called with $@"
+x=1
+echo "x is $x"
+myfunc 1 2 3
+echo "x is $x"
 ```
 
 - [ ] [Bash4Noobs/03-Arrays.md at main · DantasB/Bash4Noobs · GitHub](https://github.com/DantasB/Bash4Noobs/blob/main/src/4-Intermedi%C3%A1rio/03-Arrays.md)
