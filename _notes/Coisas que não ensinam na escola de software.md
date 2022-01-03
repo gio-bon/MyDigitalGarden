@@ -2,8 +2,6 @@
 title: Coisas que não ensinam na escola de software
 ---
 
-Fonte: [Things they don't teach you in software school](https://sneub.gumroad.com/l/gxwwsl)
-
 ## Pontos importantes do livro:
 
 Se trata de uma coleção das coisas que é mais valioso saber, quando se está começando.
@@ -59,3 +57,6 @@ Se você estiver interessado em se tornar um engenheiro sênior ou acima, então
 
 Ser um desenvolvedor significa que você faz parte de uma **comunidade**. Uma comunidade maciça e global de pessoas que são como você.
 
+---
+
+Fonte: [Things they don't teach you in software school](https://sneub.gumroad.com/l/gxwwsl)

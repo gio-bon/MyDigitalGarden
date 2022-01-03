@@ -847,3 +847,7 @@ Frameworks
 - [33 JavaScript concepts every developer should know.](https://github.com/leonardomso/33-js-concepts)
 - [You-Dont-Know-JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
 - [airbnb/javascript: JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+---
+
+- [10 Dicas para se Tornar Ninja em JavaScript! - DEV Community](https://dev.to/azure/10-dicas-para-se-tornar-ninja-em-javascript-1775)

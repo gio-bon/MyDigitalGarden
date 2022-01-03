@@ -2,8 +2,6 @@
 title: SODS-21
 ---
 
-Fonte: [Stack Overflow Developer Survey 2021](https://insights.stackoverflow.com/survey/2021#technology-learning-problem-solving)
-
 A pesquisa traz uma relação entre as tecnologias mais populares e as mais bem pagas, além de várias outras informações. 
 
 Abaixo as tecnologias com boa relação popularidade/rentabilidade, em ordem:
@@ -98,3 +96,7 @@ Abaixo as tecnologias com boa relação popularidade/rentabilidade, em ordem:
 - Terraform
 - Chef
 - Puppet
+
+---
+
+Fonte: [Stack Overflow Developer Survey 2021](https://insights.stackoverflow.com/survey/2021#technology-learning-problem-solving)
