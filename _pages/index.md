@@ -11,4 +11,4 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
 - [[Projetos]] 🚧 	
 - [[Estudos]] 🧠 <br>
 
-Explore meu <a class="internal-link" href="/map">Mapa de notas.</a> 🗺️ <br>
+Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
