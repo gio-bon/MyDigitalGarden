@@ -2,6 +2,16 @@
 title: JavaScript
 ---
 
+## Comentários
+É uma parte de código que não é interpretada pelo motor JavaScript. Pode ser utilizada, também, para colocar textos que ajudam a identificar o que está sendo feito naquele trecho de código.
+
+``` js
+  // Este é um comentário q vai explicar tudo abaixo
+  
+  /* Exemplo de comentário
+      com várias linhas. */
+```
+
 ## Variáveis
 Podem ser consideradas como contêineres que permitem armazenar dados dentro elas. Em JS existem 3 tipos de variáveis
 - `var`
@@ -163,6 +173,30 @@ console.log(nome, idade, temFilhos);
 //Rolando 18 true
 ```
 
+#### Spread
+Transforma um array-js em diversos parâmetros para uma função:
+- **array => parâmetros**
+
+``` js
+const pessoas = ['Pedro', 'Maria'];
+const todasAsPessoas = ['Marcus', 'Tiago', ...pessoas];
+
+console.log(todasAsPessoas);
+//[ 'Marcus', 'Tiago', 'Pedro', 'Maria' ]
+```
+
+#### Rest
+Nos permite transformar um número indeterminado de parâmetros em um array-js
+- **parâmetros => array**
+
+``` js
+function listagem (primeiro, segundo, ...outros) {
+console.log(`Na lista estão: ${primeiro}, ${segundo}. Os demais são: ${outros.join(', ')}.`)
+}
+listagem('Pedro', 'Maria', 'João', 'Marcus');
+//Na lista estão: Pedro, Maria. Os demais são: João, Marcus.
+```
+
 ### Objetos
 Os objetos são muito semelhantes aos arrays pois são variáveis que podem conter vários valores, a diferença é que objetos têm um conjunto de `chave/propriedade: valor` que ajuda a dar mais significado às informações armazenadas neles. São criados com chaves `{}` e separados por `,`
 
@@ -318,7 +352,7 @@ if (condicao) {
 
 ### Operador ternário
 ``` javascript
-		  condicao ? valor1 : valor2;
+condicao ? valor1 : valor2;
 ```
 
 ### `switch` `case`
@@ -448,8 +482,7 @@ A diferença entre os contadores e os acumuladores é que o contador recebe ele 
 - contador => `i++` ou `i = i + 1`
 - acumulador => `var = var + outraVar`
 
-**Flags**
-Nesse código, como fazer com que ele informe o usuário que no array não há ninguém maior de idade?
+**Flags**: nesse código, como fazer com que ele informe o usuário que no array não há ninguém maior de idade?
 
 ``` js
   var idades = [12, 26, 15, 17, 14];
@@ -474,6 +507,249 @@ if (!maiores) {
 	alert("Não há idades maiores que 18 na lista");
 }
 ```
+
+## Funções
+É um bloco de códigos, que conseguimos utilizar sempre que chamarmos em qualquer parte da nossa aplicação, para realizar uma ação (permite a reutilização de código).
+Uma função é definida pela palavra reservada `function`, seguida por um *nome* e então os parenteses `()`. Dentro dos parênteses, você insere os Parâmetros que são dados que serão processados pela função.
+
+``` javascript
+//declarando a função
+function nome_funcao(param1, param2) {
+	// código a ser executado
+	return result;
+}
+nome_funcao(param1, param2); //invocando a função
+```
+
+Funções se tornam mais úteis se retornarem um valor, pois dessa forma o programa que chamou a função define o que deseja realizar com o conteúdo retornado. Para fazer uma função retornar um valor, utiliza-se o comando `return` seguido do conteúdo de retorno. Ao ser usado `return` ela interrompe a função e sai dela.
+
+### Parâmetros
+- `arguments` dentro de funções armazena todos os parâmetros ou argumentos passados a uma função.
+``` js
+function mostraArgs(){
+	console.log(arguments);
+	let soma = 0;
+	for(let i = 0; i < arguments.length; i++){
+	  soma += arguments[i];
+}
+	return console.log(soma);
+}
+
+mostraArgs(1, 2, 3, 4);
+//3: [Arguments] { '0': 1, '1': 2, '2': 3, '3': 4 }
+//8: 10
+```
+
+#### Parâmetro padrão
+``` js
+function Tester(nome, defeito = "idiota"){
+console.log(`${nome} é um(a) ${defeito}!`);
+}
+
+Tester('Roberto') //Roberto é um(a) idiota!
+Tester('Jéssica', 'baiana'); //Jéssica é um(a) baiana!
+```
+
+É comum a necessidade de passar um número indefinido de parâmetros para uma função, Array ou Objetos, nesses casos podemos utilizar os operadores rest e spread.
+
+### Funções anônimas
+São funções sem um nome específico e que podem ter seu valor atribuído a uma variável.
+
+``` javascript
+var fibonacci = function (num) {  //a funcao pode ou não ter um nome
+if (num == 1 || num == 2) return 1;
+else return fibonacci(num - 1) + fibonacci(num - 2);
+};
+console.log(fibonacci(10)); // 55
+```
+
+### Função autoinvocável (IIFE)
+``` js
+  ( 
+	function(a, b){  //pode ou não ter um nome
+		return a + b;
+	}
+  )(1, 2);
+```
+
+Atribuindo a uma variável
+
+``` js
+  ( 
+	function(a, b){  //pode ou não ter um nome
+		return a + b;
+	}
+  )(1, 2);
+```
+
+### Arrow Function
+Uma expressão arrow function possui uma sintaxe mais curta, sendo menos verbosas.
+
+``` js
+let myFunction = (a, b) => a * b;
+```
+
+Com mais de uma linha
+
+``` js
+let hello = () => {
+...
+return "Hello World!";
+}
+```
+
+Com uma linha, nem precisa do `return` e com apenas um parâmetro não é necessário os parênteses
+
+``` js
+let hello = nome => `Hello World ${nome}`;
+```
+- Restrições das arrow functions
+	- Diferenças em relação ao this-js
+	- Não existem os `arguments`
+	- Não funciona com construtores
+[Arrow Functions — Declaração, funcionamento, escopos e o valor de this | by Raphael Lima | Medium](https://medium.com/@raphalima8/arrow-functions-declara%C3%A7%C3%A3o-funcionamento-escopos-e-o-valor-de-this-9cb6449bca31)
+
+## Escopos
+Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código. Em outras palavras, o escopo é quem determina quais são os dados que podem ser acessados em uma determinada parte do código.
+
+### Local
+Tudo que é declarado dentro de uma função.
+
+### Global
+Escopo global é tudo o que for declarado, criado fora de blocos `{ }` e de funções, por conta disso toda a nossa aplicação tem acesso a eles.
+
+### De bloco
+Um bloco é o que está dentro de `{ }`, assim escopo de bloco é que tudo o que está dentro de um bloco não é acessível fora dele.
+
+No JS em especifico até o ES2016 (ECMAScript2016), tínhamos um grande problema ao declarar variáveis usando `var` dentro de blocos de instrução (IF, FOR, WHILE, etc...) pois esses blocos não criam o seu próprio escopo, o que fazia com que todas as variáveis declaradas com `var` dentro dele se tornassem globais. Por conta disso evitamos ao máximo o uso da `var`, pois a `let` nasceu dessa necessidade de podermos declarar variáveis com escopo local dentro de blocos de instrução
+
+## Coleções
+### Map
+ECMAScript 6 apresenta uma nova estrutura de dados para mapear valores para valores. Um objeto Map é um simples mapa de chave/valor que pode ter seus elementos iterados por ordem de inserção.
+
+É parecido com um objetos (tem a estrutura chave: valor), mas tem características próprias.
+
+#### Diferenças em relação a objetos
+- As chaves de um Objeto são Strings, onde elas podem ser de qualquer tipo para um Map.
+- Você pode obter o tamanho de um Map facilmente enquanto que para um Object, você tem que obter manualmente o seu tamanho.
+- A iteração de mapas é por ordem de inserção dos elementos.
+- Um Object tem um protótipo, então existem chaves padrão no mapa. (este pode ser ignorado usando map = Object.create(null)).
+- Estes dois tipos podem ajudar você a decidir se usa um Map ou um Object:
+	- Use mapas sobre objetos quando as chaves forem desconhecidas até a execução,  e quando todas as chaves são do mesmo tipo e todos valores são do mesmo tipo.
+	- Use mapas caso haja a necessidade de armazenar valores primitivos como chaves, porque objetos tratam cada chave como uma string ou um valor numérico, valor booleano ou qualquer outro valor primitivo.
+	- Use objetos quando há uma lógica que opera em elementos individuais.
+
+A maneira correta para armazenar dados dentro do Map é através do `set(key, value)`
+
+``` js
+const map1 = new Map(); //criação
+//setando
+map1.set('a', 1); 
+map1.set('b', 2);
+map1.set('c', 3);
+
+console.log(map1.get('a'));
+// expected output: 1
+
+map1.set('a', 97); //alternado
+
+console.log(map1.size);  //tamanho (lenght)
+// expected output: 3
+
+map1.delete('b'); //deletando
+
+console.log(map1.size);  //tamanho (lenght)
+// expected output: 2
+```
+
+### Set
+Objetos Set são coleções de valores. Você pode iterar seus elementos em ordem de inserção. Um valor em um Set só pode ocorrer uma vez;  ele é único em uma coleção Set.
+
+Relacionado a Arrays, com a diferença que possuem apenas valores únicos, de qualquer tipo e não possuem vários dos métodos disponíveis aos arrays, como Map, Filter e Reduce.
+
+#### Vantagens de set em relação a arrays
+- Checar se um elemento existe em uma coleção usando indexOf para arrays é lento.
+- Objetos Set permitem que você exclua elementos por seu valor. Com um array você teria que unir baseado no índice do elemento.
+- O valor NaN não pode ser encontrado com indexOf no array.
+- Objetos Set armazenam valores únicos, você não tem que manter o controle de duplicidades manualmente por você mesmo.
+
+``` js
+var meuSet = new Set(); // criação
+
+meuSet.add(1); // meuSet [1]
+meuSet.add(5); // meuSet [1, 5]
+meuSet.add(5); // 5 já foi adicionando, portanto, meuSet [1, 5]
+meuSet.add("texto");
+var o = {a: 1, b: 2};
+meuSet.add(o);
+
+meuSet.add({a: 1, b: 2}); //  o está referenciando outro objeto
+
+meuSet.has(1); // true
+meuSet.has(3); // false, 3 não foi adicionado ao set (Conjunto)
+meuSet.has(5);              // true
+meuSet.has(Math.sqrt(25));  // true
+meuSet.has("Texto".toLowerCase()); // true
+meuSet.has(o); // true
+
+meuSet.size; // 5
+
+meuSet.delete(5); // remove 5 do set
+meuSet.has(5);    // false, 5 já foi removido
+
+meuSet.size; // 4, nós simplesmente removemos um valor
+
+console.log(meuSet) // Set { 1, 'texto', { a: 1, b: 2 }, { a: 1, b: 2 } } 
+```
+
+## This
+É uma referência contextual, que pode mudar de acordo de onde no código que ele é chamado.
+- Dentro de objetos, o `this` será o dono do objeto, com suas propriedades.
+- Sozinho e em funções, o `this` vai se referir ao objeto global (em navegadores é o objeto `window`)
+- Em eventos, o `this` será o próprio elemento que recebeu o evento.
+
+[Entendendo This, Bind, Call e Apply no JavaScript | Maicon Silva](https://www.maiconsilva.com/entendendo-this-bind-call-e-apply-no-javascript/)
+
+### `call` e `apply`
+Ambos fazem a mesma coisa. Diferença é na forma como são passados os argumentos para dentro dos métodos. Com o `apply` é possível passar um arry de argumentos => [JavaScript Function Apply()](https://www.w3schools.com/js/js_function_apply.asp)
+
+- `call` -> aceita lista de argumentos
+- `apply` -> aceita array de argumentos
+
+``` js
+const obj1 = { nome: 'Bostinha', mostraThis: function () {
+console.log(this.nome);
+}}
+const obj2 = { nome: 'Merdinha'};
+
+obj1.mostraThis.call(obj2);
+obj1.mostraThis(); //merdinha
+```
+
+``` js
+let pessoa1 = {nome: 'Pastoso', idade: 18}
+let pessoa2 = {nome: 'Pintola', idade: 33, calculaIdades: function (anos) {return `Daqui a ${anos} anos, ${this.nome} terá ${this.idade + anos} anos de idade.`;}}
+
+let callPessoa1 = pessoa2.calculaIdades.call(pessoa1, 2); //call chamando pessoa 1
+console.log(callPessoa1);
+// Daqui a 2 anos, Pastoso terá 20 anos de idade.
+```
+
+### `bind`
+O principal objetivo do método bind é alterar o contexto `this` de uma função independente de onde a mesma esteja sendo chamada.
+
+``` js
+	  function thidBindExemplo(){
+	    console.log(this.nome);
+	    console.log(this.sobrenome);
+	  }
+	  
+	  const obj = { nome: 'Bundita', sobrenome: 'Gazola' }
+	  thidBindExemplo = thidBindExemplo.bind(obj); //sem essa linha o this apontaria para "window" (em navegadores)
+	  thidBindExemplo(); //Bundita Gazola
+```
+
+Meio que transforma a função em um método do objeto à qual fica ligada.
 
 ---
 
