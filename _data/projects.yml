@@ -13,7 +13,7 @@
   url: https://github.com/maximevaillancourt/trace
   date: 2018-02-01
 
-- name: JSON Feed Viewer
-  description_html: The world's first JSON feed viewer, as seen on <a target="_blank" rel="noopener" href="https://daringfireball.net/linked/2017/05/18/maxime-vaillancourt-json-feed-viewer">Daring Fireball</a>.
-  url: https://github.com/maximevaillancourt/json-feed-viewer
-  date: 2017-05-01
+- name: Gestão do Conhecimento com Obsidian e Logseq
+  description_html: Curso que desenvolvi na plataforma da Udemy sobre conceitos de gestão de conhecimento e uso dos softwares Obsidian e Logseq.
+  url: https://www.udemy.com/course/gestao-do-conhecimento-pessoal-pkm/
+  date: 2021-06-01
