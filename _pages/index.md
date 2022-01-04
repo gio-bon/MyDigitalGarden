@@ -8,16 +8,9 @@ permalink: /
 <div>
   <div>
     <p>
-      Hello! I'm Max. I help accelerate online storefronts as a development manager at <a target="_blank" rel="noopener" href="https://www.shopify.ca/">Shopify</a>.
-      Areas of interest include active transportation, minimalism, privacy, and sustainability.
+      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Este é meu blog/digital garden.
     </p>
   </div>
-
-<div>
-  <p><a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻 </p>
-  <p>[[Projetos]] 🚧 	</p>
-  <p>[[Estudos]] 🧠 <br> </p>
-</div>
 
 <div>
   <div class="grid-element">
@@ -59,7 +52,7 @@ permalink: /
 
 <div>
   <p>
-    Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
+    Explore minhas [[notas]] e meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
   </p>
 </div>
 
