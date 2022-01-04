@@ -6,7 +6,7 @@ permalink: /blog
 
 <div>
   <div class="post-heading">
-    <h1 class="post-title">All blog posts</h1>
+    <h1 class="post-title">Todas as postagens</h1>
   </div>
   {% for post in site.posts limit: post_limit %}
   <div class="list-entry">
@@ -15,5 +15,4 @@ permalink: /blog
   </div>
   {% endfor %}
   <br>
-  <div><p>This blog is also available as <a class="internal-link" target="_blank" href="/rss.xml">RSS</a> and <a class="internal-link" target="_blank" href="/feed.json">JSON</a> feeds.</p></div>
 </div>

@@ -5,11 +5,19 @@ id: home
 permalink: /
 ---
 
-Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidian](https://obsidian.md)e inspirado na ideia de [Learn in Public](https://segredo.dev/aprenda-em-publico/). <br>
+<div>
+  <div>
+    <p>
+      Hello! I'm Max. I help accelerate online storefronts as a development manager at <a target="_blank" rel="noopener" href="https://www.shopify.ca/">Shopify</a>.
+      Areas of interest include active transportation, minimalism, privacy, and sustainability.
+    </p>
+  </div>
 
-- <a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻
-- [[Projetos]] 🚧 	
-- [[Estudos]] 🧠 <br>
+<div>
+  <p><a class="internal-link" href="/about">Sobre mim</a> 🧑‍💻 </p>
+  <p>[[Projetos]] 🚧 	</p>
+  <p>[[Estudos]] 🧠 <br> </p>
+</div>
 
 <div>
   <div class="grid-element">
@@ -49,4 +57,10 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
     {% endif %}
   </div>
 
-Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
+<div>
+  <p>
+    Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
+  </p>
+</div>
+
+</div>
