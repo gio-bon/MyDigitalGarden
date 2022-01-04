@@ -52,7 +52,7 @@ permalink: /
 
 <div>
   <p>
-    Explore minhas [[notas]] e meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
+    Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️ <br>
   </p>
 </div>
 
