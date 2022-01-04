@@ -12,4 +12,4 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
 - [[Estudos]] 🧠 <br>
 
 Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
-<a class="internal-link" href="/guessbook">livro de visitas.</a> <br>
+<a class="internal-link" href="/guestbook">livro de visitas.</a> <br>
