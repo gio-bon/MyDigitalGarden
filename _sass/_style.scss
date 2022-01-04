@@ -159,3 +159,21 @@ code {
   color: #ccc;
   cursor: help;
 }
+
+.grid {
+  display: grid;
+  grid-gap: 1rem 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+.grid-element {
+  margin: 4em 0;
+}
+
+.list-entry {
+  margin: 1em 0 1.25em;
+}
+
+.faded {
+  color: #595959;
+}
