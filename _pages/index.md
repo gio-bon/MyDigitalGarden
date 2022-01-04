@@ -11,5 +11,20 @@ Este é meu [digital garden](https://youtu.be/i8EwNnO9Uks), escrito com [obsidia
 - [[Projetos]] 🚧 	
 - [[Estudos]] 🧠 <br>
 
+<div>
+  <div class="grid-element">
+    <h2>Blog posts</h2>
+    {% assign post_limit = 7 %}
+    {% for post in site.posts limit: post_limit %}
+    <div class="list-entry">
+      <div><a class="internal-link" href="{{ post.url }}">{{ post.title }}</a> <span class="faded">({{ post.date | date: "%Y-%m-%d" }})</span></div>
+      <div>{{ post.excerpt }}</div>
+    </div>
+    {% endfor %}
+    <p>
+      <a class="internal-link" href="/blog">I wrote {{ site.posts.size | minus: post_limit }} more posts</a>.
+      This blog is also available as <a class="internal-link" target="_blank" href="/rss.xml">RSS</a> and <a class="internal-link" target="_blank" href="/feed.json">JSON</a> feeds.
+    </p>
+  </div>
+
 Explore meu <a class="internal-link" href="/map">mapa de notas.</a> 🗺️ <br>
-<a class="internal-link" href="/guestbook">livro de visitas.</a> <br>
