@@ -6,7 +6,7 @@ layout: default
     <div class="post-heading">
       <h1 class="post-title">{{ page.title }}</h1>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="faded">{% if page.type != 'pages' %}
-        {{ page.date | date: "%B %-d, %Y" }}
+        {{ page.date | date: "%d/%m/%Y" }}
         {% endif %}
       </time>
     </div>
