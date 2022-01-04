@@ -1,7 +1,6 @@
 ---
 title: Prática deliberada na programação
 layout: post
-slug: "pratica-deliberada"
 excerpt: Mantenha o foco, verifique se está se esforçando, ajuste com base no feedback da realidade, faça os ajustes e repita.
 ---
 
