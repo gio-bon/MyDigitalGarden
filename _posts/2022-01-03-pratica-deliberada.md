@@ -2,7 +2,7 @@
 title: Prática deliberada na programação
 layout: post
 slug: "pratica-deliberada"
-excerpt: Open a new tab. Change your mindset. Rinse. Repeat.
+excerpt: Mantenha o foco, verifique se está se esforçando, ajuste com base no feedback da realidade, faça os ajustes e repita.
 ---
 
 A programação é uma habilidade e a aquisição de habilidades está aberta a qualquer pessoa. Às vezes, ficar bom em algo parece ser um processo mágico, mas, na realidade, há um processo de aquisição de habilidades e o que é preciso para se tornar um especialista.
@@ -82,4 +82,4 @@ Não importa o quão difícil seja, desenvolva um hábito de estudo consistente.
 
 ---
 
-Fonte: [Como usar a prática deliberada para aprender a programar com mais eficiência.](https://cibersistemas.pt/tecnologia/como-usar-a-pratica-deliberada-para-aprender-a-programar-com-mais-eficiencia/)
+- [Como usar a prática deliberada para aprender a programar com mais eficiência.](https://cibersistemas.pt/tecnologia/como-usar-a-pratica-deliberada-para-aprender-a-programar-com-mais-eficiencia/)

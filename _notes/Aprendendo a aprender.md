@@ -27,7 +27,7 @@ Só de aprender o topo da pirâmide, você consegue entregar um projeto. Com 20%
 ## Resumo
  Dê preferência a resolver problemas, de preferência do mundo real. Não espere tutoriais ou algo mastigado, esforce-se a criar senso de autonomia e responsabilidade.
  
- A [[03-01-2022-pratica-deliberada|prática deliberada]] é sobretudo um esforço de foco e concentração, é isso que a torna "deliberada", por continuamente procurar os elementos de performance que não são satisfatórios, e então, forçando-se na melhoria especificamente desses elementos.
+ A [[2022-01-03-pratica-deliberada|prática deliberada]] é sobretudo um esforço de foco e concentração, é isso que a torna "deliberada", por continuamente procurar os elementos de performance que não são satisfatórios, e então, forçando-se na melhoria especificamente desses elementos.
 
 Aprendendo a Aprender é isso: **aprender a se virar**, sem precisar da validação de ninguém, sem ninguém pra pegar na sua mão ou te dar tapinha nas costas, mergulhar em problemas que você não sabe resolver, sofrer, se frustrar mas continuar sem desistir, apesar da dor. Esse é o filtro. Quem **persiste** e passa obstáculo atrás de obstáculo, é quem tem maiores chances de chegar em algum lugar. Nada que não te faça sentir dor tem valor.
 
