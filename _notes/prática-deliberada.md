@@ -1,7 +1,5 @@
 ---
 title: Prática deliberada na programação
-layout: post
-excerpt: Mantenha o foco, verifique se está se esforçando, ajuste com base no feedback da realidade, faça os ajustes e repita.
 ---
 
 A programação é uma habilidade e a aquisição de habilidades está aberta a qualquer pessoa. Às vezes, ficar bom em algo parece ser um processo mágico, mas, na realidade, há um processo de aquisição de habilidades e o que é preciso para se tornar um especialista.
