@@ -25,16 +25,19 @@ A cereja do bolo está na *Prática deliberada na programação* que apregoa que
 
 Tudo começa com a **desconstrução da habilidade** que você se interessa em adquirir, que pode ser feita por você mesmo quebrando esses componentes, ou da forma mais eficiente, por aprender de pessoas que já adquiriram essa habilidade (cursos como os do FreeCodeCamp são um bom exemplo).
 
-Depois você estabelece **metas desafiadoras de aprendizado**, que é quando você se obriga a sair de sua zona de conforto e espera que sua mente se adapte (da mesma forma como seu corpo se adapta à exercícios físicos regulares e intensos, ficando mais forte). Você sae que esse execício está no ponto quando não é entediante (fácil demais), e nem pode ser muito difícil, pois você vai se perder e não conseguirá progredir.
+Depois você estabelece **metas desafiadoras de aprendizado**, que é quando você se obriga a sair de sua zona de conforto e espera que sua mente se adapte (da mesma forma como seu corpo se adapta à exercícios físicos regulares e intensos, ficando mais forte). Você sabe que esse execício está no ponto quando não é entediante (fácil demais), e nem pode ser muito difícil, pois você vai se perder e não conseguirá progredir.
 
 Num mundo cheio de entretenimento e distrações você vai precisar de **foco** se quiser aprender a programar. Sem ele seu aprendizado será muito mais lento e mais prolongado. Assim, crie um ambiente livre de distrações, tanto internas como externas.
 
-Saiba que adquiri uma habilidade não é o mesmo que adquirir conhecimento, emora as coisas estejam relacionadas. Um médico não aprende a fazer determinada cirurgia por ler em livros como se faz ou por observar outros médicos fazendo. Em última instância ele terá de praticar, pôr a mão na massa, para conseguir desenvolver essa habilidade. 
+Saiba que adquirir uma habilidade não é o mesmo que adquirir conhecimento, embora essas coisas estejam relacionadas. Um médico não aprende a fazer determinada cirurgia por ler em livros como se faz ou por observar outros médicos fazendo. Em última instância ele terá de praticar, pôr a mão na massa, para conseguir desenvolver essa habilidade. 
 
-Cursos e tutoriais não lhe eximem de **praticar programação**. E saiba que quando for começar a fazer isso terá de lidar com os sentimentos de incopetência e desconforto (crianças lidam muito melhor com isso). Isso ocorre porque o fato de você não ter habilidade na área ataca o seu ego. Dessa forma, desconforto e ego ferido geralmente é um sinal de que você está indo na direção certa.
+Cursos e tutoriais não lhe eximem de **praticar programação**. E saiba que quando for começar a fazer isso terá de lidar com os sentimentos de incopetência e desconforto (crianças lidam muito melhor com isso). Isso ocorre porque o fato de você não ter habilidade na área ataca o seu **ego**. Dessa forma, desconforto e ego ferido geralmente é um sinal de que você está indo na direção certa.
 
 Com a prática você terá a única coisa que é capaz de lhe dizer se está melhorando, o **feedback** (a forma como a realidade se comunica com você). Isso pode acontecer pelo auto-estudo, quando você descobre e entende a diferença entre sua resposta e a resposta correta (por isso você não deve copiar código). Também ocorre quando você tem o auxílio de um professor ou profissional experiente.
 
-Em posse do feedback você pode **ajustar** a sua abordagem do gap entre o que você está fazendo e como as coisas realmente são. Depois disso precisará mostrar ao seu cérebro que essas coisas que está aprendendo são importante e ele não deve se livrar delas. Você fará isso por repetir essas coisas, aplicando esforços consistentemente para aprender a se tornar proficiente.
+Em posse do feedback você pode **ajustar** a sua abordagem do gap entre o que você está fazendo e como as coisas realmente são. Depois disso precisará mostrar ao seu cérebro que essas coisas que está aprendendo são importante e ele não deve se livrar delas. Você fará isso por **repetir** essas coisas, aplicando esforços consistentemente para aprender a se tornar proficiente.
 
 > A única maneira infalível de falhar ao aprender a codificar é parar.
+
+---
+As notas citadas podem ser achadas em meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
