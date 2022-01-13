@@ -1,17 +1,7 @@
-- name: Digital garden Jekyll template
-  description_html: "A Jekyll template to start your own digital garden."
-  url: https://github.com/maximevaillancourt/digital-garden-jekyll-template
-  date: 2020-05-19
-
-- name: Freshreader
-  description_html: "Read-it-later service with a twist: saved content disappears after 7 days."
-  url: https://freshreader.app
-  date: 2020-03-14
-
-- name: Trace
-  description_html: Supply chain transparency platform PoC based on the Ethereum blockchain.
-  url: https://github.com/maximevaillancourt/trace
-  date: 2018-02-01
+- name: Projetos de aprendizagem (e faculdade) 2021 para trás
+  description_html: Alguns projetos que fiz seguindo alguns cursos que fiz, além do PI 1 da faculdade.
+  url: https://gist.github.com/gio-bon/ca5067d27bdcf70ac30a15bef404fb67
+  date: 2022-01-01
 
 - name: Gestão do Conhecimento com Obsidian e Logseq
   description_html: Curso que desenvolvi na plataforma da Udemy sobre conceitos de gestão de conhecimento e uso dos softwares Obsidian e Logseq.
