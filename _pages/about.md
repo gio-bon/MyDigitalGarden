@@ -8,8 +8,6 @@ permalink: /about
 
 🎓 Sou estudante de ciência da computação na Univesp, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho com desenvolvimento web.
 
-Meus [[projetos]] 🚧.
-
 Minhas outras redes:
 
 - [GitHub](https://github.com/gio-bon)
