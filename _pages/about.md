@@ -12,4 +12,5 @@ Minhas outras redes:
 
 - [GitHub](https://github.com/gio-bon)
 - [LinkedIn](https://www.linkedin.com/in/gio-bon/)
+- [Perfil na Alura](https://cursos.alura.com.br/user/giobon)
 - [Telegram](https://t.me/giobon)
