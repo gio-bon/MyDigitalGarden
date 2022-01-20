@@ -9,3 +9,11 @@ Ontem (17/01/22) iniciou o [Desenvolve 2022](https://desenvolve.grupoboticario.c
 Fui selecionado para a [trilha Full Stack](https://drive.google.com/open?id=1-axhVDMCu-pHG4HYI-QIw_aFiKPyHZT9&authuser=injuriae%40gmail.com&usp=drive_fs), estando muito interessado em extrair o maior proveito possível de todos os recursos que irão disponibilizar dentro do programa (mentoria com profissionais da empresa, inclusive). Há a possibilidade de efetivação para trabalhar na empresa após três meses, mediante prova de seleção.
 
 Minhas impressões iniciais foram as melhores. Conforme for me aprofundando na trilha poderei trazer novidades nesse espaço.
+
+<iframe
+    border=0
+    frameborder=0
+    height=250
+    width=550  
+    src="https://cursos.alura.com.br/user/giobon">
+</iframe>
