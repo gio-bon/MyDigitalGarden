@@ -10,10 +10,4 @@ Fui selecionado para a [trilha Full Stack](https://drive.google.com/open?id=1-ax
 
 Minhas impressões iniciais foram as melhores. Conforme for me aprofundando na trilha poderei trazer novidades nesse espaço.
 
-<iframe
-    border=0
-    frameborder=0
-    height=250
-    width=550  
-    src="https://cursos.alura.com.br/user/giobon">
-</iframe>
+É possível acompanhar meu progresso [aqui](https://cursos.alura.com.br/user/giobon).
