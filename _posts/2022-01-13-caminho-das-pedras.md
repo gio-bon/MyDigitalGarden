@@ -4,8 +4,6 @@ layout: post
 excerpt: Não segundo a minha experiência.
 ---
 
-<img src="https://source.unsplash.com/cvBBO4PzWPg" alt="Unsplash code image">
-
 Como atualmente estou em uma transição de carreira (como muitos), a questão de voltar a estudar foi inevitável, principalmente em programação, área que exige um aprendizado quase perpétuo. A diferença da minha época de escola é que hoje você encontra uma abundância de materiais na internet.
 Mas como tudo, sempre há o lado bom e o ruim, e nesse caso, saber avaliar a eficácia dos materiais disponível é um requisito crítico.
 Em [Pare de fazer cursos](/pare-de-fazer-cursos){: .internal-link} pode se perceber que muitos aspirantes a devs seguem uma estratégia bem repetitiva. Fazem uma tonelada de cursos do estilo Guanabara, constroem portfólios com base em tutoriais desses cursos, e em seguida já saem procurando emprego na área, acreditando que as empresas vão lhes pagar para aprender o resto (por mais que esse tipo de coisa realmente aconteça).
