@@ -1,8 +1,8 @@
 ---
-title: SODS-21
+title: Stack Overflow Developer Survey 2021
 ---
 
-A pesquisa traz uma relação entre as tecnologias mais populares e as mais bem pagas, além de várias outras informações. 
+A pesquisa traz uma relação entre as tecnologias mais populares e as mais bem pagas, além de várias outras informações.
 
 Abaixo as tecnologias com boa relação popularidade/rentabilidade, em ordem:
 

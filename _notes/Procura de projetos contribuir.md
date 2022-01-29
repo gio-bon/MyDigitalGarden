@@ -1,5 +1,5 @@
 ---
-title: Projetos para contribuir
+title: Procura de projetos para contribuir
 ---
 
 - [Contrib 👩‍💻👨‍💻 Find Open Source Projects To Contribute To 🔥](https://gauger.io/contrib/#/language/javascript)
