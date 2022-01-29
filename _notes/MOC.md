@@ -12,3 +12,4 @@ title: MOC
 - [[Stack Overflow Developer Survey 2021]]
 - [[Template Anki para programadores]]
 - [[Procura de projetos para contribuir]]
+- [[Melhora contínua]]
