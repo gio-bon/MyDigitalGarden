@@ -30,10 +30,12 @@ Num mundo cheio de entretenimento e distrações você vai precisar de **foco** 
 
 Saiba que adquirir uma habilidade não é o mesmo que adquirir conhecimento, embora essas coisas estejam relacionadas. Um médico não aprende a fazer determinada cirurgia por ler em livros como se faz ou por observar outros médicos fazendo. Em última instância ele terá de praticar, pôr a mão na massa, para conseguir desenvolver essa habilidade.
 
-Cursos e tutoriais não lhe eximem de **praticar programação**. E saiba que quando for começar a fazer isso terá de lidar com os sentimentos de incopetência e desconforto (crianças lidam muito melhor com isso). Isso ocorre porque o fato de você não ter habilidade na área ataca o seu **ego**. Dessa forma, desconforto e ego ferido geralmente é um sinal de que você está indo na direção certa.
+Cursos e tutoriais não lhe eximem de **praticar programação**. E saiba que quando for começar a fazer isso terá de lidar com os sentimentos de incompetência e desconforto (crianças lidam muito melhor com isso). Isso ocorre porque o fato de você não ter habilidade na área ataca o seu **ego**. Dessa forma, desconforto e ego ferido geralmente é um sinal de que você está indo na direção certa.
 
 Com a prática você terá a única coisa que é capaz de lhe dizer se está melhorando, o **feedback** (a forma como a realidade se comunica com você). Isso pode acontecer pelo auto-estudo, quando você descobre e entende a diferença entre sua resposta e a resposta correta (por isso você não deve copiar código). Também ocorre quando você tem o auxílio de um professor ou profissional experiente.
 
 Em posse do feedback você pode **ajustar** a sua abordagem do gap entre o que você está fazendo e como as coisas realmente são. Depois disso precisará mostrar ao seu cérebro que essas coisas que está aprendendo são importante e ele não deve se livrar delas. Você fará isso por **repetir** essas coisas, aplicando esforços consistentemente para aprender a se tornar proficiente.
 
 > A única maneira infalível de falhar ao aprender a codificar é parar.
+
+BÔNUS: [Coisas que não ensinam na escola de software](/coisas-não-ensinam-escola-software){: .internal-link}
