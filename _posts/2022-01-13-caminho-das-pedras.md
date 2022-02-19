@@ -6,13 +6,18 @@ excerpt: Não segundo a minha experiência.
 
 Como atualmente estou em uma transição de carreira (como muitos), a questão de voltar a estudar foi inevitável, principalmente em programação, área que exige um aprendizado quase perpétuo. A diferença da minha época de escola é que hoje você encontra uma abundância de materiais na internet.
 Mas como tudo, sempre há o lado bom e o ruim, e nesse caso, saber avaliar a eficácia dos materiais disponível é um requisito crítico.
+
+## Pare de fazer cursos
+
 Em [Pare de fazer cursos](/pare-de-fazer-cursos){: .internal-link} pode se perceber que muitos aspirantes a devs seguem uma estratégia bem repetitiva. Fazem uma tonelada de cursos do estilo Guanabara, constroem portfólios com base em tutoriais desses cursos, e em seguida já saem procurando emprego na área, acreditando que as empresas vão lhes pagar para aprender o resto (por mais que esse tipo de coisa realmente aconteça).
 
 O ponto é que a maioria desses profissionais tem pressa e não controem um **conhecimento sólido** em programação, coisa que vai exigir estudos de algoritmos e estruturas de dados, além de muita prática em exercícios (de preferência do mundo real e que obviamente não sejam meros tutoriais).
 
 Sobre **portfólios**, para que se possa destacar nesse meio, deve-se buscar copiar coisas que já existam, mudando alguma coisa (incluindo uma funcionalidade diferente); criar projetos pessoais originais e criativos, e ainda, se faltar ideias, buscar *issues* de projetos opensource que você tenha capacidade de resolver (com um plus de se envolver com a comunidade e conhecer pessoas novas).
 
-Já em [Aprendendo a aprender](/aprendendo-a-aprender){: .internal-link} a questão do que realmente aprendemos em cursos é questionada. A maioria segue um aprendizado passivo, pagando pelo curso ou pagando mensalidade e fazendo o menor esforço possível para conseguir o certificado ou diploma, como se um mero pedaço de papel representasse o que há no seu cérebro.
+## Aprendendo a aprender
+
+Já em [Aprendendo a aprender](/aprendendo-a-aprender){: .internal-link} a questão do que realmente aprendemos em cursos é questionada. A maioria segue um aprendizado passivo, pagando pelo curso ou pagando mensalidade e fazendo o menor esforço possível para conseguir o certificado ou diploma, como se um mero pedaço de papel representasse o que há em seu cérebro.
 
 Vivemos em um mundo em que nada é simples, o que exige **autonomia** de quem aprende. Assim, saber avaliar os materiais é importante, pois no fim eles devem atingir o mesmo objetivo, dar uma introdução a determinado assunto. A partir disso você pode começar a fazer algo, e a partir daí, conforme as dúvidas forem surgindo, você as soluciona por complementar as informações necessárias, num ciclo de feedback constante com o mundo real (e não com a simulação de um tutorial).
 
@@ -20,7 +25,9 @@ Se tentar aprender tudo o que há pra aprender na área de computação, você m
 
 Isso nos leva ao **princípio de pareto**, que se aplica a muitos campos diferente, e também ao do aprendizado. Com 20% do conhecimento (topo da pirâmide) você consegue resolver 80% dos problemas. Mas pra resolver os últimos 20%, vai precisar dos 80% de conhecimento (base da pirâmide) que ainda não tem.
 
-A cereja do bolo está na [Prática deliberada na programação](/prática-deliberada-na-programação){: .internal-link} que apregoa que o tipo certo de prática por um período suficiente leva a melhorias.
+## Prática deliberada em programação
+
+A cereja do bolo está na [Prática deliberada na programação](/prática-deliberada-na-programação){: .internal-link} que afirma que o tipo certo de prática, por um período suficiente, leva a melhorias.
 
 Tudo começa com a **desconstrução da habilidade** que você se interessa em adquirir, que pode ser feita por você mesmo quebrando esses componentes, ou da forma mais eficiente, por aprender de pessoas que já adquiriram essa habilidade (cursos como os do FreeCodeCamp são um bom exemplo).
 
@@ -36,6 +43,5 @@ Com a prática você terá a única coisa que é capaz de lhe dizer se está mel
 
 Em posse do feedback você pode **ajustar** a sua abordagem do gap entre o que você está fazendo e como as coisas realmente são. Depois disso precisará mostrar ao seu cérebro que essas coisas que está aprendendo são importante e ele não deve se livrar delas. Você fará isso por **repetir** essas coisas, aplicando esforços consistentemente para aprender a se tornar proficiente.
 
-> A única maneira infalível de falhar ao aprender a codificar é parar.
-
+---
 BÔNUS: [Coisas que não ensinam na escola de software](/coisas-não-ensinam-escola-software){: .internal-link}
