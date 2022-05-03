@@ -10,6 +10,9 @@ permalink: /
     <p>
       Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Este é minha página pessoal-profissional e digital garden. 🌵
     </p>
+  <p>
+    Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
+  </p>
   </div>
 
 <div>
@@ -49,11 +52,4 @@ permalink: /
     </div>
     {% endif %}
   </div>
-
-<div>
-  <p>
-    Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️ <br>
-  </p>
-</div>
-
 </div>
