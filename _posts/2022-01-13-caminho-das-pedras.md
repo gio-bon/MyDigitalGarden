@@ -13,7 +13,7 @@ Em [Pare de fazer cursos](/pare-de-fazer-cursos){: .internal-link} pode se perce
 
 O ponto é que a maioria desses profissionais tem pressa e não controem um **conhecimento sólido** em programação, coisa que vai exigir estudos de algoritmos e estruturas de dados, além de muita prática em exercícios (de preferência do mundo real e que obviamente não sejam meros tutoriais).
 
-Sobre **portfólios**, para que se possa destacar nesse meio, deve-se buscar copiar coisas que já existam, mudando alguma coisa (incluindo uma funcionalidade diferente); criar projetos pessoais originais e criativos, e ainda, se faltar ideias, buscar *issues* de projetos opensource que você tenha capacidade de resolver (com um plus de se envolver com a comunidade e conhecer pessoas novas).
+Sobre **portfólios**, para que se possa destacar nesse meio, deve-se buscar copiar coisas que já existam, mudando alguma coisa (incluindo uma funcionalidade diferente); criar projetos pessoais originais e criativos, e ainda, se faltar ideias, buscar *issues* de projetos opensource que você tenha capacidade de resolver (com um plus de se envolver com a comunidade e conhecer pessoas novas). [Veja Guias de código aberto](https://opensource.guide/pt/)
 
 ## Aprendendo a aprender
 
