@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default copy
 title: Map
 permalink: /map
 ---
