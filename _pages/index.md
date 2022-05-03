@@ -8,7 +8,7 @@ permalink: /
 <div>
   <div>
     <p>
-      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Este é minha página pessoal-profissional e digital garden. 🌵
+      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. 👨‍💻 Este é meu digital garden. 🌱
     </p>
   <p>
     Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
