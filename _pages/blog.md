@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default copy
 title: Blog archives
 permalink: /blog
 ---
