@@ -8,11 +8,11 @@ title: Referências
 - [AkitaOnRails.com](https://www.akitaonrails.com/)
 
 ## Canais Youtube
-- [Otavio Lemos - YouTube](https://www.youtube.com/user/OtavioALLemos/videos)
-- [Ricardo Maroquio - YouTube](https://www.youtube.com/c/RicardoMaroquio/videos)
-- [Distro Hopper - YouTube](https://www.youtube.com/c/DistroHopper/videos)
-- [Fabio Akita - YouTube](https://www.youtube.com/c/FabioAkita1990/videos)
-- [Andre Okazaki - YouTube](https://www.youtube.com/c/OkazakiAndre/videos)
+- [Otavio Lemos - YouTube](https://www.youtube.com/user/OtavioALLemos/videos) -> desenvolvimento em geral
+- [Ricardo Maroquio - YouTube](https://www.youtube.com/c/RicardoMaroquio/videos) -> dotnet e c#
+- [Distro Hopper - YouTube](https://www.youtube.com/c/DistroHopper/videos) -> linux e bate-papos
+- [Fabio Akita - YouTube](https://www.youtube.com/c/FabioAkita1990/videos) -> desenvolvimento em geral
+- [Andre Okazaki - YouTube](https://www.youtube.com/c/OkazakiAndre/videos) -> testes
 
 ## Outras refs
 - [Gustavo Santos' digital space](https://gustavosantos.dev/)
