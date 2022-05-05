@@ -12,7 +12,4 @@ _site/
 _includes/notes_graph.json
 
 # Obsidian config
-.obsidian/
-
-_notes/temp
-_notes/models
+_notes/.obsidian
