@@ -10,6 +10,6 @@ permalink: /about
 
 Minhas outras redes:
 
-- [LinkedIn](https://www.linkedin.com/in/gio-bon/)
+- [LinkedIn](https://www.linkedin.com/in/gio-bon/) <i class="fa fa-map" aria-hidden="true"></i>
 - [GitHub](https://github.com/gio-bon)
 - [Telegram](https://t.me/giobon)
