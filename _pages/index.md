@@ -7,17 +7,14 @@ permalink: /
 
 <div>
   <div>
-    <p>
+    <h3>
       Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. 👨‍💻 Este é meu digital garden. 🌱
-    </p>
-  <p>
-    Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
-  </p>
+    </h3>
   </div>
 
 <div>
   <div class="grid-element">
-    <h2>Postagens</h2>
+    <h2>✉️Postagens</h2>
     {% assign post_limit = 7 %}
     {% for post in site.posts limit: post_limit %}
     <div class="list-entry">
@@ -31,7 +28,7 @@ permalink: /
   </div>
 
   <div class="grid-element">
-    <h2>Projetos</h2>
+    <h2>🚧Projetos</h2>
 
     {% assign project_limit = 2 %}
     {% for project in site.data.projects limit: project_limit %}
