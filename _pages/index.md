@@ -7,9 +7,9 @@ permalink: /
 
 <div>
   <div>
-    <h3>
-      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. 👨‍💻 Este é meu digital garden. 🌱
-    </h3>
+    <h1>
+      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Eu sou um dev. 👨‍💻
+    </h1>
   </div>
 
 <div>

@@ -44,4 +44,4 @@ Com a prática você terá a única coisa que é capaz de lhe dizer se está mel
 Em posse do feedback você pode **ajustar** a sua abordagem do gap entre o que você está fazendo e como as coisas realmente são. Depois disso precisará mostrar ao seu cérebro que essas coisas que está aprendendo são importante e ele não deve se livrar delas. Você fará isso por **repetir** essas coisas, aplicando esforços consistentemente para aprender a se tornar proficiente.
 
 ---
-BÔNUS: [Coisas que não ensinam na escola de software](/coisas-não-ensinam-escola-software){: .internal-link}
+BÔNUS: [Coisas que não ensinam na escola de software](/Coisas que não ensinam na escola de software){: .internal-link}
