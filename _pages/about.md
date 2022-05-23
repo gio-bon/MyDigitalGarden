@@ -15,6 +15,6 @@ Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
 
 Minhas outras redes:
 
-- [LinkedIn](https://www.linkedin.com/in/gio-bon/) <i class="fa fa-linkedin" aria-hidden="true"></i>
+- [LinkedIn](https://www.linkedin.com/in/gio-bon/) <a src="https://www.linkedin.com/in/gio-bon/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 - [GitHub](https://github.com/gio-bon)
 - [Telegram](https://t.me/giobon)
