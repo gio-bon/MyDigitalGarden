@@ -1,0 +1,6 @@
+---
+title : Estrutura de Dados
+---
+
+Um exemplo de lista telefônica é frequentemente usado para descrever o tempo logarítmico. Digamos que você esteja procurando o número de telefone do seu amigo em uma lista telefônica. Você sabe que o nome do seu amigo começa com a letra “M”. Você provavelmente abrirá a lista telefônica no meio e verá se os nomes começam com qualquer letra que preceda “M” ou qualquer letra que siga “M”. Com base nisso, você abrirá a lista telefônica mais para a frente ou mais para trás e, novamente, verá se chegou perto da letra “M. Você continuará executando essas etapas e diminuindo o tamanho da população em dois, até localizar o nome do seu amigo. Observe que você executará as mesmas etapas independentemente do tamanho da lista telefônica (primeiro abra no meio, depois mova para a frente ou para trás, diminuindo assim a população,
+O(log n) significa que o tempo de execução cresce proporcionalmente ao logaritmo do tamanho da entrada, o que significa que o tempo de execução mal aumenta à medida que você aumenta exponencialmente a entrada. O logaritmo é a função inversa da exponenciação, é a potência à qual um número deve ser elevado para obter outro número. Por exemplo, o logaritmo de base dez de 100 é 2, porque dez elevado à potência de dois é 100: log 100 = 2.

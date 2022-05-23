@@ -1,8 +1,5 @@
 ---
 title : C# Exercism
-notetype : feed
-date : 22-05-2022
-homepage: enabled
 ---
 
 ## About Basics

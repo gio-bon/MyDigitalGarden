@@ -9,7 +9,7 @@ Mas como tudo, sempre há o lado bom e o ruim, e nesse caso, saber avaliar a efi
 
 ## Pare de fazer cursos
 
-Em [Pare de fazer cursos](/pare-de-fazer-cursos){: .internal-link} pode se perceber que muitos aspirantes a devs seguem uma estratégia bem repetitiva. Fazem uma tonelada de cursos do estilo Guanabara, constroem portfólios com base em tutoriais desses cursos, e em seguida já saem procurando emprego na área, acreditando que as empresas vão lhes pagar para aprender o resto (por mais que esse tipo de coisa realmente aconteça).
+Você pode perceber que muitos aspirantes a devs seguem uma estratégia bem repetitiva. Fazem uma tonelada de cursos do estilo Guanabara, constroem portfólios com base em tutoriais desses cursos, e em seguida já saem procurando emprego na área, acreditando que as empresas vão lhes pagar para aprender o resto (por mais que esse tipo de coisa realmente aconteça).
 
 O ponto é que a maioria desses profissionais tem pressa e não controem um **conhecimento sólido** em programação, coisa que vai exigir estudos de algoritmos e estruturas de dados, além de muita prática em exercícios (de preferência do mundo real e que obviamente não sejam meros tutoriais).
 
