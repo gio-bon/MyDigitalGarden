@@ -6,7 +6,8 @@ permalink: /about
 
 <img src="/assets/photo-profile.jpg" style="border-radius: 20%;" width="200" align="left"/> <br><br><br><br><br><br><br>
 
-🎓 Sou estudante de ciência da computação na Univesp, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
+Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
+Explore meu <a class="internal-link" href="/map">mapa de notas</a>. 🗺️
 
 Minhas outras redes:
 
