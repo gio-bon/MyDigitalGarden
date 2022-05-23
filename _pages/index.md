@@ -5,6 +5,10 @@ id: home
 permalink: /
 ---
 
+<head>
+    <script src="https://kit.fontawesome.com/2635e42ccc.js" crossorigin="anonymous"></script>
+</head>
+
 <div>
   <div>
     <h1>
@@ -28,7 +32,7 @@ permalink: /
   </div>
 
   <div class="grid-element">
-    <h2>🚧Projetos</h2>
+    <h2>🚧 <i class="fa fa-file-code-o" aria-hidden="true"></i>Projetos</h2>
 
     {% assign project_limit = 2 %}
     {% for project in site.data.projects limit: project_limit %}
