@@ -180,5 +180,9 @@ code {
 
 .lista-nav ul li {
   display: inline-block;
-  border-right: 4px;
+  border-right: 10px;
+}
+
+.lista-nav ul{
+  float: left;
 }
