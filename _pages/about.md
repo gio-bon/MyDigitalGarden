@@ -9,9 +9,7 @@ permalink: /about
 </head>
 <div style="padding-botton: 30px;">
     <img src="/assets/photo-profile.jpg" style="border-radius: 50%;" width="200" align="left">
-</div>
-
-<br><br><br><br><br>
+</div> <br><br><br><br><br><br><br><br><br><br>
 
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br><br>
 
