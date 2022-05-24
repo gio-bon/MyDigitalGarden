@@ -7,8 +7,9 @@ permalink: /about
 <head>
     <script src="https://kit.fontawesome.com/2635e42ccc.js" crossorigin="anonymous"></script>
 </head>
-
-<img src="/assets/photo-profile.jpg" style="border-radius: 50%; padding-right: 30px;" width="200" align="left"/> 
+<div style="padding-right: 30px;">
+    <img src="/assets/photo-profile.jpg" style="border-radius: 50%" width="200" align="left"/> 
+</div>
 <br><br>
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 <br>
