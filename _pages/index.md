@@ -28,7 +28,7 @@ permalink: /
   </div>
 
   <div class="grid-element">
-    <h2>🚧</i>Projetos</h2>
+    <h2>🚧Projetos</h2>
 
     {% assign project_limit = 2 %}
     {% for project in site.data.projects limit: project_limit %}
