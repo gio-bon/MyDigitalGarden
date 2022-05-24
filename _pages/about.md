@@ -16,4 +16,4 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 <br><br>
 <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() | <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() | <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/gio-bon/) | <i class="fa fa-github" aria-hidden="true"></i> [GitHub](https://github.com/gio-bon) | <i class="fa fa-telegram" aria-hidden="true"></i> [Telegram](https://t.me/giobon) | <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:injuriae@gmail.com">Email</a>
 <br>
-<a href="https://exercism.org/profiles/gio-bon"><img src="https://d24y9kuxp2d7l2.cloudfront.net/assets/icons/exercism-with-logo-black-b427c06c6a068ba9f391734115e4d22dfa876d1d.svg"></a>
+- <a href="https://exercism.org/profiles/gio-bon"><img src="https://d24y9kuxp2d7l2.cloudfront.net/assets/icons/exercism-with-logo-black-b427c06c6a068ba9f391734115e4d22dfa876d1d.svg"></a>
