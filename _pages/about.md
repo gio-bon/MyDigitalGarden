@@ -14,16 +14,14 @@ permalink: /about
 
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 
-<i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br>
+<i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br><br>
 
 <!-- https://devicon.dev -->
-<div>
-    <div class="grid2">
-        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
-        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>  
-        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
-    </div>
-</div> <br>
+<div class="grid2">
+    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
+    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>  
+    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
+</div><br>
 
 <!-- https://fontawesome.com/v4/icons/ -->
 
