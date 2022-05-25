@@ -17,8 +17,17 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 <i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br>
 
 <!-- https://devicon.dev -->
-
-<img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/> | <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/> <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> <br>
+<div>
+    <div class="grid">
+        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
+    </div>
+    <div class="grid">
+        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>    
+    </div>
+    <div class="grid">
+        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />    
+    </div>
+</div> <br>
 
 <!-- https://fontawesome.com/v4/icons/ -->
 
