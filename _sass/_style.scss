@@ -168,7 +168,8 @@ code {
 
 .grid2 {
   display: grid;
-  grid-gap: 1rem 2rem;
+  gap: 10px 20px;
+  // grid-gap: 1rem 2rem;
   grid-template-columns: repeat(auto-fit, 100px);
 }
 
