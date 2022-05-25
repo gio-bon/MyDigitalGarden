@@ -2,7 +2,7 @@
 title : Buble Sort
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607)
+![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607|200)
 
 Bubble sort é um algoritmo de ordenação que compara dois elementos adjacentes e os troca se não estiverem na ordem pretendida (ascendente vs descendente).
 

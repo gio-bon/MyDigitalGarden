@@ -2,7 +2,7 @@
 title : Insertion Sort
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif?20110309111239)
+![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif?20110309111239|200)
 
 A Ordenação por Inserção insere cada elemento da matriz em seu local apropriado com base em se a matriz está sendo classificada em ordem crescente ou decrescente.
 
