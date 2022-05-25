@@ -20,12 +20,8 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 <div>
     <div class="grid2">
         <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
-    </div>
-    <div class="grid2">
-        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>    
-    </div>
-    <div class="grid2">
-        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />    
+        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>  
+        <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
     </div>
 </div> <br>
 
