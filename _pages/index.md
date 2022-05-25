@@ -14,7 +14,7 @@ permalink: /
 
 <div>
   <div class="grid-element">
-    <h2>✉️ Artigos</h2>
+    <h2>✉️ Postagens</h2>
     {% assign post_limit = 7 %}
     {% for post in site.posts limit: post_limit %}
     <div class="list-entry">
