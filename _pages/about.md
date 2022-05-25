@@ -16,7 +16,7 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 
 <i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br><br>
 
-<link rel="stylesheet" color="black" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" />
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() 
 - <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() 
