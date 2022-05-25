@@ -18,11 +18,14 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 
 <!-- https://devicon.dev -->
 <div class="grid2">
-    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/>
-    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>  
-    <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
+    <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]()
+    <i class="fa fa-id-card" aria-hidden="true"></i> [CV]()
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/gio-bon/)
+    <i class="fa fa-github" aria-hidden="true"></i> [GitHub](https://github.com/gio-bon)
+    <i class="fa fa-telegram" aria-hidden="true"></i> [Telegram](https://t.me/giobon)
+    <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:injuriae@gmail.com">Email</a>
 </div><br>
 
 <!-- https://fontawesome.com/v4/icons/ -->
 
-<i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() | <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() | <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/gio-bon/) | <i class="fa fa-github" aria-hidden="true"></i> [GitHub](https://github.com/gio-bon) | <i class="fa fa-telegram" aria-hidden="true"></i> [Telegram](https://t.me/giobon) | <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:injuriae@gmail.com">Email</a>
+
