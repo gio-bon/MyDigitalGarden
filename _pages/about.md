@@ -14,9 +14,9 @@ permalink: /about
 
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 
-<i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br><br>
+<i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br>
 
-<img width="60px" color="black" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/> | <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/>
+<img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg"/> | <img width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> <br>
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() 
 - <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() 
