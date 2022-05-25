@@ -14,7 +14,7 @@ permalink: /
 
 <div>
   <div class="grid-element">
-    <h2>✉️ Posts</h2>
+    <h2>✉️ Artigos</h2>
     {% assign post_limit = 7 %}
     {% for post in site.posts limit: post_limit %}
     <div class="list-entry">
@@ -28,7 +28,7 @@ permalink: /
   </div>
 
   <div class="grid-element">
-    <h2>🚧 Projects</h2>
+    <h2>🚧 Projetos</h2>
 
     {% assign project_limit = 2 %}
     {% for project in site.data.projects limit: project_limit %}

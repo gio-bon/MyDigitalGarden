@@ -3,17 +3,20 @@ layout: default copy
 title: About
 permalink: /about
 ---
-
 <head>
     <script src="https://kit.fontawesome.com/2635e42ccc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
+
 <div style="padding-botton: 30px;">
     <img src="/assets/photo-profile.jpg" style="border-radius: 50%;" width="200" align="left">
 </div> <br><br><br><br><br><br><br>
 
-Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br><br>
+Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 
 <i class="fa fa-file-text" aria-hidden="true"></i> <a class="internal-link" href="/map">Minhas notas.</a><br><br>
+
+<link rel="stylesheet" color="black" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() 
 - <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() 
