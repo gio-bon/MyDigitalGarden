@@ -25,9 +25,4 @@ Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bac
 
 <!-- https://fontawesome.com/v4/icons/ -->
 
-- <i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() 
-- <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() 
-- <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/gio-bon/)
-- <i class="fa fa-github" aria-hidden="true"></i> [GitHub](https://github.com/gio-bon) 
-- <i class="fa fa-telegram" aria-hidden="true"></i> [Telegram](https://t.me/giobon)
-- <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:injuriae@gmail.com">Email</a>
+<i class="fa fa-map-marker" aria-hidden="true"></i> [Brazil]() | <i class="fa fa-id-card" aria-hidden="true"></i> [CV]() | <i class="fa fa-linkedin-square" aria-hidden="true"></i> [LinkedIn](https://www.linkedin.com/in/gio-bon/) | <i class="fa fa-github" aria-hidden="true"></i> [GitHub](https://github.com/gio-bon) | <i class="fa fa-telegram" aria-hidden="true"></i> [Telegram](https://t.me/giobon) | <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:injuriae@gmail.com">Email</a>
