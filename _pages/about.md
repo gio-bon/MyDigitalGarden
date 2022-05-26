@@ -14,9 +14,9 @@ permalink: /about
 
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 
-<i class="fa fa-archive" aria-hidden="true"></i> [Minhas anotações.](/MOC){: .internal-link} <br><br>
+<i class="fa fa-archive" aria-hidden="true"></i> [Minhas anotações.](/MOC){: .internal-link} <br>
 
 <!-- https://devicon.dev -->
 <!-- https://fontawesome.com/v4/icons/ -->
 
-<i class="fa fa-id-card" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="#"><b>Curriculum</b></a> | <i class="fa fa-linkedin-square" aria-hidden="true" href="https://github.com/gio-bon"></i> <a class="link-copyright" target="_blank" href="https://github.com/gio-bon"><b>Linkedin</b></a> | <i class="fa fa-github" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="https://github.com/gio-bon"><b>GitHub</b></a> | <i class="fa fa-telegram" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="https://t.me/giobon"><b>Telegram</b></a> | <i class="fa fa-envelope" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="mailto:injuriae@gmail.com"><b>Email</b></a>
+<i class="fa fa-id-card" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="#">Curriculum</a> | <i class="fa fa-linkedin-square" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="https://github.com/gio-bon">Linkedin</a> | <i class="fa fa-github" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="https://github.com/gio-bon">GitHub</a> | <i class="fa fa-telegram" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="https://t.me/giobon">Telegram</a> | <i class="fa fa-envelope" aria-hidden="true"></i> <a class="link-copyright" target="_blank" href="mailto:injuriae@gmail.com">Email</a>
