@@ -1,4 +1,9 @@
 ---
 title: MOC
 ---
-dfdsfdsdsfd
+
+- [[Bases da Computação]]
+
+---
+
+{% include notes_graph.html %}
