@@ -14,7 +14,7 @@ permalink: /about
 
 Sou estudante de ciência da computação na Univesp 🎓, no curso de [[BTI|Bacharelado em Tecnologia da Informação]] e atualmente trabalho na GFT como desenvolvedor .NET. <br>
 
-<i class="fa fa-file-text" aria-hidden="true"></i> [Teste link](/MOC){: .internal-link} <br><br>
+<i class="fa fa-archive" aria-hidden="true"></i> [Minhas anotações.](/MOC){: .internal-link} <br><br>
 
 <!-- https://devicon.dev -->
 
