@@ -1,7 +1,6 @@
 ---
 title : Bases da Computação
 ---
-
 ## Eletrônica
 Em essência, a eletrônica busca controlar a corrente elétrica ou Eletricidade. Para isso usará os componentes eletrônicos (resistores, capacitores, indutores e transistores).
 
@@ -36,7 +35,9 @@ Tem 3 terminais (pinos), o coletor, a base e o emissor. Essencialmente a corrent
 É possível formar circuítos com transistores, chamados de Portas Lógicas.
 
 ## Portas Lógicas
-São pequenos circuítos que usam Transistores que executam operações lógicas sobre corrente elétrica, recebendo uma ou mais entradas e devolvendo uma saída lógica. Essas portas são operações/cálculos na algebra de Álgebra Booleana.
+São pequenos circuítos que usam transistores que executam operações lógicas sobre corrente elétrica, recebendo uma ou mais entradas e devolvendo uma saída lógica. Essas portas são operações/cálculos na algebra de Álgebra Booleana.
+
+A lógica digital é baseada em portas (*gates*) ou interruptores digitais. Seu objetivo é produzir uma única saída filtrando as entradas de acordo com determinada lógica binária (função implementada no circuito). Ao combinar sinais binários é possível criar mais representações (2 lâmpadas podem representar $2^2$ estados, 3 lâmpadas podem representar $3^2$ estados...). Essas combinações são analisadas em tabelas verdade.
 
 As operações lógicas em dígitos binários podem ser combinadas para realizar cálculos genéricos. Uma porta lógica recebe valores através de fios de entrada, realiza sua operação e coloca o resultado em seu fio de saída. Grupos de variáveis lógicas podem representar números em formato binário. Verdadeiro e Falso são representados por correntes elétricas de alta ou baixa tensão.
 - A porta `NOT` (negação) inverte o sinal da entrada.
@@ -167,6 +168,16 @@ A base da computação é a **abstração**. Domine os fundamentos, entenda como
 
 O volume de software existente é enorme, há centenas de ecossistemas, milhares de ferramentas, milhões de bibliotecas e se você tentasse aprendê-los todos como coisas individuais, seria impossível. No entanto, todos são construídos com as mesmas partes básicas.
 
+### Linguagens de programação
+Linguagens de programação são usadas para implementar algoritmos, enquanto que algoritmos são criados para resolver problemas, criando programas que passam instruções para o computador.
+
+Nessas linguagens, há estruturas de entrada e saída de dados, cálculos, processos de decisão com base em condições a serem cumpridas e repetições de blocos de códigos por um certo número de vezes ou até que determinadas condições sejam alcançadas.
+São classificadas de acordo com a proximidade da linguagem e compreensao humana:
+- De alto nível se humanos podem ler e compreender facilmente, exemplo javascript e python.
+- De baixo nível se estiverem mais perto  do código binário, sendo assim mais rápidas, porém mais dificultosas de humanos lerem e compreenderem, por exemplo Assembly e C.
+
+Para que a CPU possa executar um programa, executando os cálculos, é necessário converter uma linguagem de baixo ou alto nível em código de máquina, e isso é feito por meio do assembler, que traduz a linguagem Assembly para a linguagem de maquina.
+
 ### Conceitos básicos
 - Por default as linguagens podem fazer todas operações básicas `+ - * /`, inclusive o módulo `%` (resto de uma divisão) muito usado para saber se um número é par ou não.
 	- Em strings o operador `+` geralmente é usado para concatenação.
@@ -174,8 +185,10 @@ O volume de software existente é enorme, há centenas de ecossistemas, milhares
 - Operadores de comparação numérica como `< <= > >= == !=` são usados para avaliações em Loops e estruturas de controle.
 
 **Variáveis** são lugares na memória onde um valor é armazenado, é algo que pode armazenar informações e pode ser referenciado e manipulado. Poder referenciar um valor que pode ser usado mais tarde é essencial para qualquer programa.
-- Uma espécie de caixa de papelão, que tem um **tipo**, **nome** e um **dado** armazenado dentro dela. Toda vez que a execução termina essas caixas de variáveis são apagadas, e quando o programa é executado elas são criadas novamente.
-- Usadas para receber os inputs do usuário
+
+ A variável é um local na memória, o nome associado àquele local. Esses locais são usados pra armazenar dados, que serão posteriormente usados por programas. A diferença entre constantes e variáveis é a de que o valor associado ao nome da variável pode mudar durante a execução do programa.
+
+É uma espécie de caixa de papelão, que tem um **tipo**, **nome** e um **dado** armazenado dentro dela. Toda vez que a execução termina essas caixas de variáveis são apagadas, e quando o programa é executado elas são criadas novamente.
 
 **Tipos de dados** são diferentes tipos de dados que um programador pode usar. Cada linguagem tem seus tipos específicos, mas a grosso modo, em qualquer linguagem, eles seriam mais ou menos os seguintes.
 
@@ -187,11 +200,15 @@ texto (string) nome = "Joselito"
 caractere (char) sexo = "M"
 ```
 
+Os dados no computador são classificados em tipos, tendo uma representação única e precisam de quantidades variáveis de memória. Cada tipo tem diferentes operações que podem ser feitas com seus conjuntos de dados, por exemplo, números inteiros podem ser somados enquanto que caracteres não podem.
+
 [Type Systems in Software Explained With Examples](https://thevaluable.dev/type-system-software-explained-example/)
 
-A **inicialização** de variáveis faz com que um espaço na memória seja reservado para o conteúdo da variável, onde ficará armazenado. Uma variável pode ser criada sem valor dentro, seu conteúdo será `null`
+A **inicialização** é o ato de definir o nome da variável e o tipo de dado que ela irá armazenar e faz com que um espaço na memória seja reservado para o conteúdo da variável, onde ficará armazenado. Uma variável pode ser criada sem valor dentro, seu conteúdo será `null`
 
-**Atribuição** é conceitualmente muito simples. Você está armazenando um valor em algum armazenamento nomeado (variáveis): `inteiro a = 2` Aqui, o valor 2 está sendo armazenado em `a`, uma variável inteira. Você pode acessar o valor pelo nome que você deu ao seu armazenamento e também pode usá-lo para outras atribuições:
+A **atribuição** é o ato de definir o valor de uma variável, o que faz com que o valor seja copiado para a região de memória da variável, sobrescrevendo o que havia ali; essa operação pode ser feita inúmeras vezes durante a execução do programa.
+
+Atribuição é conceitualmente muito simples. Você está armazenando um valor em algum armazenamento nomeado (variáveis): `inteiro a = 2` Aqui, o valor 2 está sendo armazenado em `a`, uma variável inteira. Você pode acessar o valor pelo nome que você deu ao seu armazenamento e também pode usá-lo para outras atribuições:
 ```
 inteiro b = 3
 b = b + a
@@ -202,9 +219,9 @@ As **convenções para nome** de variáveis geralmente envolvem nomes significat
 
 Normalmente um programa prossegue de cima para baixo, linha por linha, executando cada instrução e passando para a próxima. Ele faz isso para sempre, até encontrar uma instrução que o diga para parar, ou um tipo de erro que o force a parar. Mas um programa que só pode prosseguir ou parar não pode fazer muita coisa realmente interessante. Os programas tornam-se verdadeiramente expressivos quando você tem uma maneira de alterar a ordem futura de execução com base em algum estado presente. Mecanismos que fazem isso são chamados de construções de fluxo de controle, que podem ser estruturas condicionais ou de repetição.
 
-**Blocos** são essas coisas envoltas por `{ }`. A área de influência de um bloco, incluindo o armazenamento que possui e o armazenamento que pode acessar, é chamada de **escopo**. Um bloco que tem um nome e que pode ser invocado de outro lugar (quando inputs são passados para ele) são chamados de funções.
+**Blocos** são essas coisas envoltas por `{ }`. A área de influência de um bloco, incluindo o armazenamento que possui e o armazenamento que pode acessar, é chamada de **escopo**. Escopos definem restrições de acessibilidade que uma variável possuem no código; pode ser global e acessível em todo código, ou local, sendo acessível apenas dentro de classes, funções ou blocos de códigos.
 
-**Função** é um segmento de código que pode ser executado facilmente por chamar o nome da função (abstraindo várias operação em uma única linha, quando a função é chamada). Podem ser chamadas inúmeras vezes e em qualquer parte do código. Elas podem ser com argumentos ou sem argumentos retornando ou não valores.
+**Função** é um bloco que tem um nome e que pode ser invocado de outro lugar (quando inputs são passados para ele) são chamados de funções. Função é um segmento de código que pode ser executado facilmente por chamar o nome da função (abstraindo várias operação em uma única linha, quando a função é chamada). Podem ser chamadas inúmeras vezes e em qualquer parte do código. Elas podem ser com argumentos ou sem argumentos retornando ou não valores.
 
 **Estruturas condicionais** são declarações que alteram o caminho do código dependendo de certas condições. Um programa sem instruções condicionais faria o mesmo sempre, o que o tornaria inútil. Em geral essas estruturas são `if...else if...else` e `switch case`.
 
@@ -240,7 +257,7 @@ Linguagens muitas vezes são especializadas para determinadas tarefas, embora ex
 ### Assembly
 Linguagens de programação são um conjunto de técnicas fornecidas para o benefício do programador humano. Mas para executá-los, eles devem ser compilados em código de máquina, que nada mais é do que uma longa sequência de dígitos binários. interpretar esses fluxos de números é notoriamente difícil para os humanos, embora não impossível.
 
-A linguagem assembly é um conjunto de mnemônicos legíveis por humanos para código de máquina, além de um punhado de atalhos simples que economizam trabalho. Assembly foi uma das primeiras invenções para tornar a programação mais eficiente para operadores humanos, antes dos compiladores e antes das linguagens de alto nível. 
+Linguagem de baixo nível, escrita em mnemonicos que refletem de perto as operações de uma CPU. Em português seria algo como _linguagem de montagem_. A linguagem assembly é um conjunto de mnemônicos legíveis por humanos para código de máquina, além de um punhado de atalhos simples que economizam trabalho. Assembly foi uma das primeiras invenções para tornar a programação mais eficiente para operadores humanos, antes dos compiladores e antes das linguagens de alto nível. 
 
 Exemplos em assembly são suficientes para demonstrar o que realmente está acontecendo por baixo do código, a fim de desenvolver intuições sobre o que é possível em computadores e para desenvolver mais flexibilidade na adaptação a novos sistemas.
 
