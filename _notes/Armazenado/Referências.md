@@ -4,7 +4,6 @@ title: Referências
 ## Leituras
 - [Programming - GCSE Computer Science Revision - BBC Bitesize](https://www.bbc.co.uk/bitesize/topics/zq6hvcw)
 - [The Valuable Dev](https://thevaluable.dev/)
-- [GitHub - the-akira/IntroComp: Introdução aos Princípios da Computação e Programação](https://github.com/the-akira/IntroComp)
 - [AkitaOnRails.com](https://www.akitaonrails.com/)
 
 ## Canais Youtube

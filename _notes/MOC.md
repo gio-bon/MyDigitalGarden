@@ -10,6 +10,7 @@ title: MOC
 
 ### Livros
 - [[Coisas que nao ensinam na escola de software]]
+- [[Computer Science The Mechanization of Abstraction - Aho and Ullman]]
 
 #### Outros
 - [[Referências]]

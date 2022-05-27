@@ -126,7 +126,7 @@ Uma linguagem de programação serve para traduzir nossas instruções humanas p
 O que é conhecido como Lógica de Programação nada mais é a forma de pensar correta quando se passa as instruções que o computador deve cumprir, utilizando de certas estruturas predefinidas que as linguagens de programação já possuem.
 
 ## Abstração
-Significa ocultar o funcionamento subjacente de um sistema com atalhos ou conveniências, adicionando complexidade para que você possa fingir que ela não existe. Uma abstração simplificará um processo ou artefato, fornecendo o que você realmente precisa e ocultando os detalhes inúteis que você não se importa.
+Abstração significa ocultar o funcionamento subjacente de um sistema com atalhos ou conveniências, adicionando complexidade para que você possa fingir que ela não existe. Uma abstração simplificará um processo ou artefato, fornecendo o que você realmente precisa e ocultando os detalhes inúteis que você não se importa.
 Três principais propriedades de uma abstração:
 - O conceito de esconder ou remover o que é inútel.
 - O conceito de generalização (generalização de uma ideia ou conceito)
@@ -309,6 +309,4 @@ Catalogo o conhecimento como um gráfico gigante, esparramado, sem organização
 Quanto mais apertado você torna o ciclo de feedback-resposta, mais rápido você pode trabalhar, mais rápido você pode pensar, mais natural e sem esforço tudo parece.
 
 ---
-Para ampliar a compreensão:
-- [[Arquitetura de Computadores]]
-- [[Estrutura de Dados e Algoritmos]]
+[the-akira/IntroComp: Introdução aos Princípios da Computação e Programação](https://github.com/the-akira/IntroComp)
