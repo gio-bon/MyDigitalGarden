@@ -2,7 +2,7 @@
 title : Merge Sort
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif?20151222172210|200)
+[Merge Sort Gif](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
 Utiliza o conceito de dividir para conquistar, através da recursão. O funcionamento do Merge Sort baseia-se em uma rotina fundamental cujo nome é merge. Primeiro vamos entender como ele funciona e depois vamos ver como sucessivas execuções de merge ordena um array.
 
@@ -12,15 +12,122 @@ Exemplos abaixo em portugol.
 
 ### Merge de dois arrays ordenados
 
-<script src="https://gist.github.com/gio-bon/e5245e4604194260f95edd76df7f4745.js"></script>
+```c
+programa
+{
+	funcao inicio()
+	{
+		inteiro a[4] = {2, 4, 6, 8}
+		inteiro b[4] = {1, 3, 5, 7}
+		inteiro v[8]
+		inteiro conta = 0
+		inteiro i=0, j=0, k=0
+		
+		enquanto(conta < 8 e i <= 4 e j < 4){
+			se(a[i] <= b[j]){
+				v[k] = a[i]
+				i++
+				k++
+				conta++
+			}senao{
+				v[k] = b[j]
+				j++
+				k++
+				conta++
+			}
+		}
+		//para alocar o último ítem de k
+		enquanto(i < 4){
+			v[k] = a[i]
+			i++
+			k++
+		}
+		enquanto(j < 4){
+			v[k] = b[j]
+			j++
+			k++
+		}
+	}
+}
+```
 
 ### Merge em uma única lista
 
-<script src="https://gist.github.com/gio-bon/3fc1283ae7d2c50effce8860d79b6850.js"></script>
+```c
+programa
+{
+	funcao inicio()
+	{
+		inteiro a[8] = {2, 4, 6, 8, 1, 3, 5, 7}
+		inteiro v[8]
+		inteiro conta = 0
+		inteiro comeco = 0, fim = 8- 1, meio = (comeco + fim)/2
+		inteiro i = comeco, j = meio + 1, k = comeco
+	
+		enquanto(i <= meio e j <= fim){
+			se(a[i] <= a[j]){
+				v[k] = a[i]
+				k++
+				i++
+			}senao{
+				v[k] = a[j]
+				k++
+				j++
+			}
+		}
+		//para alocar o último ítem de v
+		enquanto(i <= meio){
+			v[k] = a[i]
+			i++
+			k++
+		}
+		enquanto(j <= fim){
+			v[k] = a[j]
+			j++
+			k++
+		}
+	}
+}
+```
 
 ### Merge Sort, usando Recursão
 O algoritmo divide a lista logicamente em duas.
 - Organiza a primeira parte (para ficar na ordem crescente) e depois a segunda (para ficar na ordem crescente)
 - No fim chama a função merge para organizar a lista completa
 
-<script src="https://gist.github.com/gio-bon/760e226459f424f7cd4c44eee6bbc0fb.js"></script>
+```c
+programa
+{
+	funcao inicio()
+	{
+		inteiro a[8] = {2, 4, 6, 8, 1, 3, 5, 7}
+		inteiro v[8]
+		inteiro conta = 0
+		inteiro comeco = 0, fim = 8- 1, meio = (comeco + fim)/2
+		inteiro i = comeco, j = meio + 1, k = comeco
+	
+		enquanto(i <= meio e j <= fim){
+			se(a[i] <= a[j]){
+				v[k] = a[i]
+				k++
+				i++
+			}senao{
+				v[k] = a[j]
+				k++
+				j++
+			}
+		}
+		//para alocar o último ítem de v
+		enquanto(i <= meio){
+			v[k] = a[i]
+			i++
+			k++
+		}
+		enquanto(j <= fim){
+			v[k] = a[j]
+			j++
+			k++
+		}
+	}
+}
+```

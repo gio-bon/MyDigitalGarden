@@ -2,7 +2,7 @@
 title : Insertion Sort
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif?20110309111239|200)
+[Insertion Sort Gif](https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif?20110309111239|200)
 
 A Ordenação por Inserção insere cada elemento da matriz em seu local apropriado com base em se a matriz está sendo classificada em ordem crescente ou decrescente.
 
@@ -20,8 +20,53 @@ A Ordenação por Inserção é um algoritmo de ordenação que coloca o element
 
 Exemplo em javascript.
 
-<script src="https://gist.github.com/gio-bon/ef2f1f3a0a130439ae4e7b1b19399b9e.js"></script>
+```js
+function insertionSort(array) {
+	for (let i = 1; i < array.length; i++) {   // assumimos que o primeiro elemento do array já está ordenado e começamos a iteração a partir do segundo elemento do array;
+	  let key = array[i];   // defina o próximo elemento de array não classificado para igual chave;
+		let j = i - 1;   // defina o último elemento classificado como igual a j;
+		while (j >= 0 && array[j] > key) {   // verifique se a chave atual é menor que o último elemento classificado;
+			array[j + 1] = array[j];   // se estiver, mova o último elemento ordenado para a direita (abrindo espaço para a chave atual);
+		j--;   // passar para o próximo elemento classificado;
+	  }
+	  array[j + 1] = key;   // se a chave atual for maior que o último elemento classificado, coloque-a à direita do último elemento classificado;
+	}
+	return array;
+}
+```
 
 Exemplo com portugol.
 
-<script src="https://gist.github.com/gio-bon/a4fe9d7f43b612090d7d3faef8c8c536.js"></script>
+```c
+programa
+{
+	inclua biblioteca Util
+	funcao inicio()
+	{
+		inteiro vetor[7], p, copia, tam = 7, indice  //variáveis
+		  
+		//vai popular o vetor com números aleatórios
+		para(p = 0; p < 7; p++){
+			vetor[p] = Util.sorteia(1, 200)
+			escreva(vetor[p], ", ") //mostra vetor desordenado
+		}
+		//algo insertion sort
+		para(inteiro i = 0; i < tam; i++){
+			copia = vetor[i]
+			indice = i
+	
+			enquanto(indice > 0 e vetor[indice - 1] > copia){
+				vetor[indice] = vetor[indice - 1]
+				indice--
+			}
+			vetor[indice] = copia
+		}
+		
+		//mostra vetor ordenado
+		escreva("\n")
+		para(p = 0; p < 7; p++){
+			escreva(vetor[p], ", ")
+		}
+	}
+}
+```

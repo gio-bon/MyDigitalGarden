@@ -10,15 +10,72 @@ Recursão é um método de resolução de problemas que envolve quebrar um probl
 
 Exemplo em contagem regressiva com portugol.
 
-<script src="https://gist.github.com/gio-bon/cbfa9e5a9ffc8c32766faf1f1bfcc990.js"></script>
+```c
+programa
+{
+	funcao contagemRecursiva(inteiro num){
+		se(num == 0){  //caso base ou ponto de parada
+			escreva(num)
+		}
+		senao{
+			escreva(num, ", ") //resolve pequena parte do problema
+			contagemRecursiva(num - 1) //é chamada a mesma função para resolver o problema (agora diminuído)
+			}
+		}
+	
+	funcao inicio()
+	{
+		inteiro numero
+		escreva("Qual número quer regredir? ")
+		leia(numero)
+		contagemRecursiva(numero)
+	}
+}
+```
 
 Exemplo em descobrir o fatorial com portugol (**com** recursividade).
 - Lembrando o fatorial de 6:  `6! = 1 x 2 x 3 x 4 x 5 x 6 = 720`
 
-<script src="https://gist.github.com/gio-bon/efe979aac3eedea21539f20b3155899d.js"></script>
+```c
+programa
+{
+	funcao inteiro fatorial(inteiro num){
+		se(num == 0 ou num == 1) //ponto de parada
+			retorne 1
+		senao{
+			retorne num * fatorial(num - 1) //chamada recursiva
+		}
+	}
+	
+	funcao inicio()
+	{	
+	inteiro escolhaFat
+	escreva("Entre com o fatorial: ")
+	leia(escolhaFat)
+	
+	escreva("O fatorial de ", escolhaFat, " é ", fatorial(escolhaFat)) 
+	}
+}
+```
 
 Exemplo comparativo, em descobrir o fatorial com portugol (**sem** recursividade).
 
-<script src="https://gist.github.com/gio-bon/ee92f1d0aa90219f0c17ed0c72a5bfca.js"></script>
+```c
+programa
+{
+	funcao inicio()
+	{
+	
+	inteiro escolhaFat, fatorial = 1
+	escreva("Entre com o fatorial: ")
+	leia(escolhaFat)
+	
+	para(inteiro num = 1; num <= escolhaFat; num++){
+		fatorial = fatorial * num
+	}
+	escreva(fatorial)
+	}
+}
+```
 
 Fibonacci -> [exemplo](https://www.youtube.com/watch?v=Nxx7WqIDGCI&list=PLqJK4Oyr5WSgsSi26lXEm-SOnZkhkUO7k&index=4) de quando o uso de recursão não é uma boa ideia.

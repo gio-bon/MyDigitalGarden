@@ -43,3 +43,4 @@ Fontes:
 - [Big-O-Notation Visual Guide)](https://roadmap.sh/guides/big-o-notation.png)
 - [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)
 - [Roadmap-sh Watch](https://roadmap.sh/watch)
+- [trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms)

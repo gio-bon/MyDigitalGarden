@@ -2,7 +2,7 @@
 title : Buble Sort
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif?20131109191607|200)
+[Buble Sort Gif](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
 Bubble sort é um algoritmo de ordenação que compara dois elementos adjacentes e os troca se não estiverem na ordem pretendida (ascendente vs descendente).
 
@@ -21,8 +21,53 @@ Iterações restantes:
 
 Exemplo em javascript.
 
-<script src="https://gist.github.com/gio-bon/9b9596f7298ad9c7938b71426d47e1f1.js"></script>
+```js
+function sortItems(array) {
+  for (let i = 0; i < array.length; i++) { // for itera através de cada item no array;
+    for (let j = 0; j < array.length; j++) { // for loop faz comparações entre cada elemento na matriz;
+    if (array[j] > array[j + 1]) { // if verifica se o número à esquerda de uma comparação é maior que o número à direita;
+      let temp = array[j]; // se for, trocamos os números; caso contrário, não faça nada.
+      array[j] = array[j + 1];
+      array[j + 1] = temp;
+    }
+  }
+}
+return array;
+}
+```
 
 Exemplo em portugol.
 
-<script src="https://gist.github.com/gio-bon/156beedfb464266a481abd255537f9c8.js"></script>
+```c
+programa
+{
+	inclua biblioteca Util
+	funcao inicio()
+	{
+		inteiro vetor[20], i, temp, mudanca = 1  //variáveis
+		  
+		//vai popular o vetor com números aleatórios
+		para(i = 0; i < 20; i++){
+			vetor[i] = Util.sorteia(1, 200)
+			escreva(vetor[i], ", ") //mostra vetor desordenado
+		}
+		//algoritmo bubble sort
+		enquanto(mudanca == 1){ //enquanto houver mudança o vetor é percorrido com o algo de ordenação
+			mudanca = 0
+			para(i = 0; i < 20 - 1; i++){
+			se(vetor[i] > vetor[i+1]){
+				temp = vetor[i]
+				vetor[i] = vetor[i+1]
+				vetor[i+1] = temp
+				mudanca = 1 //se houver troca a mudança aconteceu
+				}
+			}
+		}
+		//para mostrar vetor ordenado
+		  escreva("\n")
+		para(i = 0; i < 20; i++){
+			escreva(vetor[i], ", ")
+		}
+	}
+}
+```

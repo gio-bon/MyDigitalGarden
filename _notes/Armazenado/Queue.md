@@ -13,6 +13,46 @@ Usado em SO em agendamento de tarefas, processo pelo qual o computador determina
 
 Implementação de uma fila em javascript.
 
-<script src="https://gist.github.com/gio-bon/b05e9ddd7b66484957d4f912a778d9b5.js"></script>
+```js
+class Queue {
+  constructor() {
+    this.items = [];
+  }
+  //adiciona no final da fila
+  enqueue(item) {
+    this.items.push(item);
+  }
+  //remove elementos do começo da fila
+  dequeue() {
+    return this.items.shift();
+  }
+  //retorna o tamanho da pilha
+  size() {
+    return this.items.length;
+  }
+  //mostra o primeiro item
+  peek() {
+    return this.items[0];
+  }
+  //diz se há o elemento na lista
+  contains(item) {
+    return this.items.includes(item);
+  }
+
+  display() {
+    return console.log(this.items);
+  }
+}
+
+const fila = new Queue();
+fila.enqueue(51);
+fila.enqueue(10);
+fila.enqueue(13);
+fila.display(); //[ 51, 10, 13 ]
+console.log(fila.dequeue()); //51
+console.log(fila.peek()); //10
+console.log(fila.size()); //2
+console.log(fila.contains(33)); //false
+```
 
 [Queue Data Structure - Illustrated Data Structures - YouTube](https://www.youtube.com/watch?v=mDCi1lXd9hc)
