@@ -1,5 +1,6 @@
 ---
 title : ArrayList
+alias: Lista Encadeada
 ---
 
 Seu funcionamento pode ser pensado como uma Array crescente, que expande seu tamanho conforme a necessidade.

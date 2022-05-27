@@ -27,6 +27,6 @@ Um array dentro de outro é conhecido como **array bidimensional** (usado para o
 - Inserir e excluir dados pode demorar muito se estiver trabalhando com muitos dados
 - Em uma grande lista estará desperdiçando espaço até que a preencha totalmente
 
-Pode ser usada com segurança, mas para maiores funcionalidades há outras estruturas.
+Pode ser usada com segurança, mas para maiores funcionalidades há outras estruturas, como a [[ArrayList|Lista Encadeada]]
 
 [Array Data Structure - Illustrated Data Structures - YouTube](https://www.youtube.com/watch?v=QJNwK2uJyGs)
