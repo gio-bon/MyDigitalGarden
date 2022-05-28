@@ -16,6 +16,38 @@ A ordenação por seleção é um algoritmo de ordenação que divide a lista de
 - Continue com os passos 3 - 5, até que todos os elementos estejam em suas posições ordenadas.
 - A matriz é classificada quando todos os elementos não classificados são colocados em suas posições corretas.
 
+Exemplo em portugol.
+
+```c
+programa
+{
+	inclua biblioteca Util
+	funcao inicio()
+	{
+		inteiro vetor[5], temp, menor  //variáveis
+		inteiro tamanho = Util.numero_elementos(vetor)
+		  
+		//vai popular o vetor com números aleatórios
+		para(inteiro popula = 0; popula < tamanho; popula++){
+			vetor[popula] = Util.sorteia(1, 200)
+			escreva(vetor[popula], ", ") // console mostra vetor desordenado
+		}
+		//algoritmo selection sort
+		para(inteiro i = 0; i < tamanho - 1; i++){ //começa na primeira posição e vai indo pra direita
+			menor = i
+			para(inteiro j = i; j < tamanho; j++){ //compara do começo e percorre comparando pra direita
+				se(vetor[j] < vetor[menor])
+					menor = j
+			}
+			//troca as posições
+			temp = vetor[menor]
+			vetor[menor] = vetor[i]
+			vetor[i] = temp
+		}
+	}
+}
+```
+
 Exemplo em javascript.
 
 ```js
@@ -30,42 +62,5 @@ function selectionSort(array) {
 	  [array[i], array[minimum]] = [array[minimum], array[i]]; //  mova `minimum` para o final da sublista ordenada;
 	}
 	return array;
-}
-```
-
-Exemplo em portugol.
-
-```c
-programa
-{
-	inclua biblioteca Util
-	funcao inicio()
-	{
-		inteiro vetor[7], p, temp, tam = 7, menor  //variáveis
-		  
-		//vai popular o vetor com números aleatórios
-		para(p = 0; p < 7; p++){
-			vetor[p] = Util.sorteia(1, 200)
-			escreva(vetor[p], ", ") //mostra vetor desordenado
-		}
-		//algo selection sort
-		para(inteiro i = 0; i < tam - 1; i++){ //começa na primeira posição e vai indo pra direita
-			menor = i
-			para(inteiro j = i; j < tam; j++){ //compara do começo e percorre comparando pra direita
-				se(vetor[j] < vetor[menor])
-					menor = j
-			}
-			//troca as posições
-			temp = vetor[menor]
-			vetor[menor] = vetor[i]
-			vetor[i] = temp
-		}
-		  
-		  //mostra vetor ordenado
-		escreva("\n")
-		para(p = 0; p < 7; p++){
-			escreva(vetor[p], ", ")
-		}
-	}
 }
 ```

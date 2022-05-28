@@ -2,35 +2,28 @@
 title : Recursão
 ---
 
-Recursão é um método de resolução de problemas que envolve quebrar um problema em subproblemas menores e menores até chegar a um problema pequeno o suficiente para que ele possa ser resolvido trivialmente. Normalmente recursão envolve uma função que chama a si mesma. Embora possa não parecer muito, a recursão nos permite escrever soluções elegantes para problemas que, de outra forma, podem ser muito difíceis de programar.
-
-- Um algoritmo recursivo deve ter um **caso básico** (ponto de parada).
-- Um algoritmo recursivo deve mudar o seu estado e se aproximar do caso básico.
-- Um algoritmo recursivo deve chamar a si mesmo, recursivamente.
+Recursao tem o caso base, que diz quando a recursão deve parar, e o caso recursivo, que é quando a função chama a si mesma.
 
 Exemplo em contagem regressiva com portugol.
 
 ```c
 programa
 {
-	funcao contagemRecursiva(inteiro num){
-		se(num == 0){  //caso base ou ponto de parada
-			escreva(num)
-		}
-		senao{
-			escreva(num, ", ") //resolve pequena parte do problema
-			contagemRecursiva(num - 1) //é chamada a mesma função para resolver o problema (agora diminuído)
-			}
-		}
-	
 	funcao inicio()
 	{
-		inteiro numero
-		escreva("Qual número quer regredir? ")
-		leia(numero)
-		contagemRecursiva(numero)
+		inteiro numeroRegredir
+		//lê um número que será regredido
+		leia(numeroRegredir)
+		enquanto(numeroRegredir >= 1){
+			numeroRegredir = Regressao(numeroRegredir)
+		}
+	}
+	funcao inteiro Regressao(inteiro entrada){
+		escreva(entrada - 1, ", ")
+		retorne entrada--
 	}
 }
+
 ```
 
 Exemplo em descobrir o fatorial com portugol (**com** recursividade).
@@ -57,6 +50,8 @@ programa
 	}
 }
 ```
+
+![](http://luizricardo.org/wordpress/wp-content/upload-files/2016/04/top-5-programming-animated-gifs_recursion-animted-gif.gif)
 
 Exemplo comparativo, em descobrir o fatorial com portugol (**sem** recursividade).
 
