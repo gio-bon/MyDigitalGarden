@@ -2,9 +2,6 @@
 title : Selection Sort
 ---
 
-<img src="https://www.doabledanny.com/static/1f66c277a7a820e3492149c6e499bdb1/2.gif" width="500">
-
-
 ![](https://www.doabledanny.com/static/1f66c277a7a820e3492149c6e499bdb1/2.gif)
 
 A ordenação por seleção é um algoritmo de ordenação que divide a lista de entrada em duas partes, uma sublista ordenada que é construída da esquerda para a direita e uma sublista dos valores não ordenados restantes. A sublista ordenada é colocada na frente (à esquerda) da sublista não ordenada.
