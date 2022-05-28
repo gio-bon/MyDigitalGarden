@@ -18,7 +18,7 @@ permalink: /
     {% assign post_limit = 7 %}
     {% for post in site.posts limit: post_limit %}
     <div class="list-entry">
-      <div><b> - <a class="internal-link" href="{{ post.url }}">{{ post.title }}</a></b> <span class="faded">{{ post.date | date: "%d/%m/%Y" }}</span></div>
+      <div><b> ▪️ <a class="internal-link" href="{{ post.url }}">{{ post.title }}</a></b> <span class="faded">{{ post.date | date: "%d/%m/%Y" }}</span></div>
       <div>{{ post.excerpt }}</div>
     </div>
     {% endfor %}
