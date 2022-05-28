@@ -2,6 +2,8 @@
 title : Recursão
 ---
 
+![](https://ling123labs.com/assets/img/lab-post-10/recursion-meme.gif)
+
 Recursao tem o caso base, que diz quando a recursão deve parar, e o caso recursivo, que é quando a função chama a si mesma.
 
 Exemplo em contagem regressiva com portugol.
@@ -50,8 +52,6 @@ programa
 	}
 }
 ```
-
-![](http://luizricardo.org/wordpress/wp-content/upload-files/2016/04/top-5-programming-animated-gifs_recursion-animted-gif.gif)
 
 Exemplo comparativo, em descobrir o fatorial com portugol (**sem** recursividade).
 

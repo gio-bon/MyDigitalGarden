@@ -2,7 +2,7 @@
 title : Pesquisa Binária
 ---
 
-![](http://luizricardo.org/wordpress/wp-content/upload-files/2016/04/binary-and-linear-search-animations.gif)
+![](https://c.tenor.com/Jl0YrqxnHmAAAAAd/binary-search-sequence-search.gif)
 
 Exemplo de algoritmo de busca binária em em portugol.
 
