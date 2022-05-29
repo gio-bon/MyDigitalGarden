@@ -11,7 +11,7 @@ A notação Big-O é a linguagem usada para falar sobre quanto tempo o algoritmo
 
 ![](https://miro.medium.com/max/1400/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
-- O(2^n) = Complexidade Exponencial
+- $O(2^n)$ = Complexidade Exponencial
 - O(n^2) = [[Complexidade Quadrática]]
 - O(n) = [[Complexidade Linear]]
 - O(log n) = [[Complexidade Logarítmica]]
