@@ -3,6 +3,8 @@ title : Estrutura de Dados e Algoritmos
 ---
 
 # Estrutura de Dados
+```toc
+```
 
 A [[Notação Big-O]] é a forma de julgar a velocidade e eficiência de diferentes estruturas de dados, e ajudam a definir quando usar (ou não) determinada estrutura.
 
@@ -25,9 +27,13 @@ Uma estrutura de dados é uma forma particular de organizar e armazenar dados em
 
 # Algoritmos
 - [[Recursão]]
-- [[Pesquisa Binária]]
+
+## Ordenação
 - [[Buble Sort]]
 - [[Merge Sort]]
 - [[Insertion Sort]]
 - [[Selection Sort]]
 - [[Quick Sort]]
+
+## Pesquisa
+- [[Pesquisa Binária]]

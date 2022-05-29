@@ -23,3 +23,4 @@ title: Referências
 - [Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com/)
 - [Roadmap-sh Watch](https://roadmap.sh/watch)
 - [trekhleb/javascript-algorithms: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms)
+- [Algoritmos de ordenação explicados com exemplos em Python, Java e C++](https://www.freecodecamp.org/portuguese/news/algoritmos-de-ordenacao-explicados-com-exemplos-em-python-java-and-c/)
