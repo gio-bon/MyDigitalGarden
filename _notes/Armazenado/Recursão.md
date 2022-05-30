@@ -6,6 +6,8 @@ title : Recursão
 
 Recursao tem o caso base, que diz quando a recursão deve parar, e o caso recursivo, que é quando a função chama a si mesma.
 
+[Call stack](https://youtu.be/ZQCBkZyZIGQ) (pilha de chamadas) é um conceito importante em programação e indispensável para entender a recursão.
+
 Exemplo em contagem regressiva com portugol.
 
 ```c

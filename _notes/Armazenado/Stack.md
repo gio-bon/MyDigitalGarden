@@ -1,5 +1,6 @@
 ---
 title : Stack
+alias: Pilha
 ---
 
 Ou **pilha**, estrutura na qual adicionamos e removemos elemento pela ordem de uma pilha, onde o último elemento colocado será o primeiro a ser retirado (LIFO), limitando assim a entrada dos dados à um único ponto.

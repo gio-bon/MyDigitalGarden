@@ -8,7 +8,7 @@ A Ordenação por Inserção insere cada elemento da matriz em seu local apropri
 
 A Ordenação por Inserção é um algoritmo de ordenação que coloca o elemento em seu local apropriado com base na ordem de ordenação. Um bom exemplo de ordenação por inserção é a classificação de cartas em suas mãos durante um jogo de cartas.
 
-É de [[Complexidade Quadrática]]. É uma maneira simples de classificar uma lista quando a complexidade não importa e a lista que precisa ser classificada é curta.
+É uma maneira simples de classificar uma lista quando a complexidade não importa e a lista que precisa ser classificada é curta.
 
 - Suponha que o primeiro elemento da matriz seja classificado por propriedade;
 - Armazene o segundo elemento da matriz em uma _cópia_;
@@ -17,23 +17,6 @@ A Ordenação por Inserção é um algoritmo de ordenação que coloca o element
 - Compare _cópia_ com o elemento classificado e coloque-o no local apropriado em relação aos elementos classificados com base em _cópia_ ser menor ou maior que cada um dos elementos classificados;
 - Continue com as etapas 4 e 5 até que todos os elementos da matriz sejam classificados.
 - A matriz é classificada quando todos os elementos não classificados são colocados em suas posições corretas.
-
-Exemplo em javascript.
-
-```js
-function insertionSort(array) {
-	for (let i = 1; i < array.length; i++) {   // assumimos que o primeiro elemento do array já está ordenado e começamos a iteração a partir do segundo elemento do array;
-	  let key = array[i];   // defina o próximo elemento de array não classificado para igual chave;
-		let j = i - 1;   // defina o último elemento classificado como igual a j;
-		while (j >= 0 && array[j] > key) {   // verifique se a chave atual é menor que o último elemento classificado;
-			array[j + 1] = array[j];   // se estiver, mova o último elemento ordenado para a direita (abrindo espaço para a chave atual);
-		j--;   // passar para o próximo elemento classificado;
-	  }
-	  array[j + 1] = key;   // se a chave atual for maior que o último elemento classificado, coloque-a à direita do último elemento classificado;
-	}
-	return array;
-}
-```
 
 Exemplo com portugol.
 

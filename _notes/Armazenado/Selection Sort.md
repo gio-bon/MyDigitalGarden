@@ -6,7 +6,7 @@ title : Selection Sort
 
 A ordenação por seleção é um algoritmo de ordenação que divide a lista de entrada em duas partes, uma sublista ordenada que é construída da esquerda para a direita e uma sublista dos valores não ordenados restantes. A sublista ordenada é colocada na frente (à esquerda) da sublista não ordenada.
 
-É de [[Complexidade Quadrática]], uma maneira simples de classificar uma lista quando a complexidade não importa e a lista que precisa de classificação é curta.
+É uma maneira simples de classificar uma lista quando a complexidade não importa e a lista que precisa de classificação é curta.
 
 - Defina o primeiro elemento da matriz como _menor_;
 - Compare _menor_ com o segundo elemento, se o segundo elemento for menor que _menor_, atribua o segundo elemento como _menor_, caso contrário, não faça nada;
@@ -45,22 +45,5 @@ programa
 			vetor[i] = temp
 		}
 	}
-}
-```
-
-Exemplo em javascript.
-
-```js
-function selectionSort(array) {
-	for (let i = 0; i < array.length - 1; i++) { // for itera através de cada item na matriz, parando com o penúltimo item. Isso ocorre porque no próximo loop vamos comparar `i` com seu vizinho `i + 1` no array, portanto, temos que parar este loop inicial um índice antes do tamanho completo do array;
-	  let minimum = i; // defina o primeiro elemento como `mínimo`;
-	  for (let j = i + 1; j < array.length; j++) { // o loop for itera através de cada item na sublista não classificada;
-		if (array[j] < array[minimum]) { // if verifica se o seguinte elemento da sublista não classificada é menor que o atual `mínimo`;
-		  minimum = j; // se for, atribua `minimum` a esse elemento ; caso contrário, não faça nada;
-		}
-	  }
-	  [array[i], array[minimum]] = [array[minimum], array[i]]; //  mova `minimum` para o final da sublista ordenada;
-	}
-	return array;
 }
 ```

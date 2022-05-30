@@ -1,11 +1,12 @@
 ---
 title : Queue
+alias: Fila
 ---
 
 Ou **fila**, estrutura que seque o princípio de o primeiro a entrar é o primeiro a sair (FIFO) e segue muito dos princípios da pilha, com a diferença do local onde serão adicionados e removidos elementos, sendo adicionados pela cauta (*tail*) e removidos pela cabeça (*head*).
 - Métodos comuns:
-	- **enqueue** (adiciona no final da fila),
-	- **dequeue** (remove elementos do começo da fila),
+	- **enqueue** ou **push** (adiciona no final da fila),
+	- **dequeue** ou **pop** (remove elementos do começo da fila),
 	- **peek** (retorna o objeto do começo da lista sem remover)
 	- **contains** (retorna uma resposta true ou false para o elemento pesquisado dentro da fila)
 

@@ -10,49 +10,53 @@ Assim como o [[Merge Sort]], o quicksort usa divisão e conquista, portanto ele 
 - Ordene o array de forma que todos os elementos menores que o pivô fiquem à esquerda e todos os elementos maiores que o pivô fiquem à direita.
 - Execute o algoritmo recursivamente, levando em consideração o pivô anterior para subdividir adequadamente os arrays esquerdo e direito. 
 
-Implementação em JavaScript:
+Implementação em portugol:
 
-```js
-const arr = [6, 2, 5, 3, 8, 7, 1, 4];
+```c
+programa
+{
+	
+inclua biblioteca Util
+	funcao inicio()
+	{
+		inteiro arr[] = {6, 2, 5, 3, 8, 7, 1, 4, 100, 1000, 9}
+		inteiro tamanho = Util.numero_elementos(arr)
+		QuickSort(arr, 0, tamanho - 1)
+		
+		//imprime resultado final
+		para(inteiro c = 0; c < tamanho; c++){
+			escreva(arr[c], ", ")
+		}
+		
+	}
+	funcao QuickSort(inteiro arr[], inteiro start, inteiro end){
+		se(start < end){
+			inteiro pivot = Particao(arr, start, end)
+			//chamadas recursivas
+			QuickSort(arr, start, pivot -1)
+			QuickSort(arr, pivot + 1, end)
+		}
+	}
+	funcao inteiro Particao(inteiro arr[], inteiro start, inteiro end){
+		inteiro pivot = end, i = start - 1, j = start
 
-const quickSort = (arr, start, end) => {
-
-  if(start < end) {
-    let pivot = partition(arr, start, end);
-    // Estas são as chamadas recursivas do quickSort
-    quickSort(arr, start, pivot - 1);
-    quickSort(arr, pivot + 1, end);
-  } 
-
+		enquanto(j < pivot){
+			se(arr[j] > arr[pivot]){
+				j++
+			}senao{
+				i++
+				Swap(arr, j, i)
+				j++
+			}
+		}
+		Swap(arr, i + 1, pivot)
+		retorne i+1
+	}
+	funcao Swap(inteiro arr[], inteiro firstIndex, inteiro secondIndex){
+		inteiro temp = arr[firstIndex]
+		arr[firstIndex] = arr[secondIndex]
+		arr[secondIndex] = temp
+	}
 }
 
-const partition = (arr, start, end) => { 
-  let pivot = end;
-  let i = start - 1,
-      j = start;
-
-  while (j < pivot) {
-    if (arr[j] > arr[pivot]) {
-      j++;
-    }
-    else {
-      i++;
-      swap(arr, j, i);
-      j++;
-    }
-
-  }
-
-  swap(arr, i + 1, pivot);
-  return i + 1;
-}
-
-const swap = (arr, firstIndex, secondIndex) => {
-  let temp = arr[firstIndex];
-  arr[firstIndex] = arr[secondIndex];
-  arr[secondIndex] = temp;
-}
-
-quickSort(arr, 0, arr.length - 1);
-console.log(arr);
 ```
