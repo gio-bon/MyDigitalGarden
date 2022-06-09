@@ -16,7 +16,7 @@ Implementação em portugol:
 programa
 {
 	
-inclua biblioteca Util
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro arr[] = {6, 2, 5, 3, 8, 7, 1, 4, 100, 1000, 9}
