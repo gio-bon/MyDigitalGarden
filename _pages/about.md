@@ -1,5 +1,5 @@
 ---
-layout: default copy
+layout: default
 title: About
 permalink: /about
 ---
