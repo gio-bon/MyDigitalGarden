@@ -8,4 +8,4 @@ title: Bacharelado em Tecnologia da Informação
 ## Projetos Integradores
 Espécie de TCC semestral que a UNIVESP realiza a fim de que os conhecimentos do curso sejam praticados em projetos.
 
-- [[UNIVESP Projeto Integrador I]]
+- [[Projeto Integrador I]]
