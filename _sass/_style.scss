@@ -184,3 +184,16 @@ code {
 .faded {
   color: #595959;
 }
+// ADITIONS
+.typing-animation{
+  animation: pisca-pisca 500ms infinite normal;
+}
+
+@keyframes pisca-pisca {
+  from {
+      border-right-color: black;
+  }
+  to {
+      border-right-color: transparent;
+  }
+}
