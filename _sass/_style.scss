@@ -188,7 +188,7 @@ code {
 
 // ADITIONS
 .typing-animation{
-  animation: pisca-pisca 800ms infinite normal;
+  animation: pisca-pisca 800ms steps(40) infinite normal, typing 4s steps(40) 1s normal;
 }
 
 @keyframes pisca-pisca {
@@ -200,7 +200,18 @@ code {
   }
 }
 
+@keyframes typing{
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
 .line {
   border-right: 2px solid #444444;
-  display: inline-block; 
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
 }
