@@ -8,7 +8,7 @@ permalink: /
 <div>
   <div>
     <h1>
-      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Eu sou um dev. 👨‍💻
+      Olá! Sou o <a class="internal-link typing-animation" href="/about">Giovani</a>. Eu sou um dev. 👨‍💻
     </h1>
   </div>
 
