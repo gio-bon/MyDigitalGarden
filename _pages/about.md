@@ -3,6 +3,13 @@ layout: default copy
 title: About
 permalink: /about
 ---
+<div>
+  <div>
+    <h1 class="typing-animation line">
+      Olá! Sou o <a class="internal-link" href="/about">Giovani</a>. Eu sou um dev. 👨‍💻
+    </h1>
+  </div>
+  
 <head>
     <script src="https://kit.fontawesome.com/2635e42ccc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
