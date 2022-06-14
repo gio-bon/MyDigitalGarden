@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default copy
 title: About
 permalink: /about
 ---
@@ -16,6 +16,9 @@ permalink: /about
 Estudante de ciência da computação na Univesp, cursando [[Bacharelado em Tecnologia da Informação]] e trabalhando como desenvolvedor .NET na GFT. <br>
 
 <i class="fa fa-archive" aria-hidden="true"></i> [Anotações.](/MOC){: .internal-link} <br>
+
+
+<a class="link-copyright" target="_blank" href="https://github.com/gio-bon"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="link-copyright" target="_blank" href="https://www.linkedin.com/in/gio-bon/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="link-copyright" target="_blank" href="mailto:injuriae@gmail.com?subject=Visitei seu site, sou ..."><i class="fa fa-envelope" aria-hidden="true"></i></a>
 
 <!-- https://devicon.dev -->
 <!-- https://fontawesome.com/v4/icons/ -->
