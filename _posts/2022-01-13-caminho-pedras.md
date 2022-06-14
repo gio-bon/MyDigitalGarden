@@ -4,6 +4,8 @@ layout: post
 excerpt: Não segundo a minha experiência.
 ---
 
+![](https://images.unsplash.com/photo-1429743305873-d4065c15f93e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80)
+
 Como atualmente estou em uma transição de carreira (como muitos), a questão de voltar a estudar foi inevitável, principalmente em programação, área que exige um aprendizado quase perpétuo. A diferença da minha época de escola é que hoje você encontra uma abundância de materiais na internet.
 Mas como tudo, sempre há o lado bom e o ruim, e nesse caso, saber avaliar a eficácia dos materiais disponível é um requisito crítico.
 
