@@ -190,7 +190,7 @@ code {
 @media only screen and (min-width: 600px) {
 
   .typing-animation{
-    animation: pisca-pisca 800ms steps(30) infinite normal, typing 4s steps(30) 400ms normal;
+    animation: pisca-pisca 800ms steps(40) infinite normal, typing 4s steps(40) 100ms normal;
   }
   
   @keyframes pisca-pisca {
