@@ -188,6 +188,28 @@ code {
 
 // ADITIONS
 @media only screen and (min-width: 600px) {
+
+  .typing-animation{
+    animation: pisca-pisca 800ms steps(40) infinite normal, typing 4s steps(40) 1s normal;
+  }
+  
+  @keyframes pisca-pisca {
+    from {
+        border-right-color: #444444;
+    }
+    to {
+        border-right-color: transparent;
+    }
+  }
+  
+  @keyframes typing{
+    from {
+      width: 0;
+    }
+    to {
+      width: 18em;
+    }
+  }
   
   .line {
     border-right: 2px solid #444444;
@@ -196,32 +218,4 @@ code {
     overflow: hidden;
   }
 
-}
-
-.typing-animation{
-  animation: pisca-pisca 800ms steps(40) infinite normal, typing 4s steps(40) 1s normal;
-}
-
-@keyframes pisca-pisca {
-  from {
-      border-right-color: #444444;
-  }
-  to {
-      border-right-color: transparent;
-  }
-}
-
-@keyframes typing{
-  from {
-    width: 0;
-  }
-  to {
-    width: 18em;
-  }
-}
-
-.line {
-  border-right: 2px solid #444444;
-  display: inline-block;
-  overflow: hidden;
 }
