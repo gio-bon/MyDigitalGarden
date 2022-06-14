@@ -190,7 +190,7 @@ code {
 @media only screen and (min-width: 864px) {
 
   .typing-animation{
-    animation: pisca-pisca 800ms steps(40) infinite normal, typing 4s steps(40) normal;
+    animation: pisca-pisca 900ms steps(40) infinite normal, typing 4s steps(40) normal;
   }
   
   @keyframes pisca-pisca {
@@ -212,7 +212,7 @@ code {
   }
   
   .line {
-    border-right: 3px solid #fdcf01;
+    border-right: 3px solid #444444;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
