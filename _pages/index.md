@@ -23,7 +23,7 @@ permalink: /
     </div>
     {% endfor %}
     <p>
-      <a class="internal-link" href="/blog">Escrevi mais {{ site.posts.size | minus: post_limit }} postagens</a>.
+      <a class="internal-link" href="/blog">Veja mais postagens</a>.
     </p>
   </div>
 
