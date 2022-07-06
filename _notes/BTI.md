@@ -9,3 +9,4 @@ title: Bacharelado em Tecnologia da Informação
 Espécie de TCC semestral que a UNIVESP realiza a fim de que os conhecimentos do curso sejam praticados em projetos.
 
 - [[Projeto Integrador I]]
+- [[Projeto Integrador II]]
