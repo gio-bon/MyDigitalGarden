@@ -2,6 +2,4 @@
 title: MOC
 ---
 
-- [[Captura]]
-- [[Referências]]
-- [[Mapa de Notas]]
+{% include notes_graph.html %}
